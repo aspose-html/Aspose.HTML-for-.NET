@@ -1,4 +1,4 @@
-## Aspose.Pdf for .NET
+## Aspose.Html for .NET
 
 [Aspose.Html for .NET](https://www.aspose.com/products/html/net) is an API for HTML document creation and manipulation as it enables your .NET applications to read, write and manipulate existing HTML documents without using any thridparty application. It also enables you to render HTML files to PDF, XPS, Raster Images and other supported formts.
 
