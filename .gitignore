@@ -20,4 +20,5 @@ Out*/
 TestResults/
 *.vsmdi
 test-results/
+packages/
 *.userprefs
