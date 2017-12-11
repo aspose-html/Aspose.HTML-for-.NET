@@ -19,8 +19,8 @@ Directory | Description
 ## Resources
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.Html for .NET](http://www.aspose.com/products/html/net)
-+ **Download:** [Download Aspose.Html for .NET](http://www.aspose.com/downloads/html/net)
-+ **Documentation:** [Aspose.Html for .NET Documentation](http://www.aspose.com/docs/display/htmlnet/Home)
++ **Product Home:** [Aspose.Html for .NET](https://products.aspose.com/html/net)
++ **Download:** [Download Aspose.Html for .NET](https://www.nuget.org/packages/Aspose.Html)
++ **Documentation:** [Aspose.Html for .NET Documentation](https://docs.aspose.com/display/htmlnet/Home)
 + **Forum:** [Aspose.Html for .NET Forum](https://forum.aspose.com/c/html)
-+ **Blog:** [Aspose.Html for .NET Blog](http://www.aspose.com/blogs/aspose-products/aspose-html-product-family.html)
++ **Blog:** [Aspose.Html for .NET Blog](https://blog.aspose.com/category/aspose-products/aspose-html-product-family/)
