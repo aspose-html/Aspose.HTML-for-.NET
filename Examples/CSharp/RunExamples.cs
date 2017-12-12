@@ -28,6 +28,7 @@ namespace Aspose.Html.Examples.CSharp
             //ReadInnerHtml.Run();
             //LoadHtmlUsingURL.Run();
             //LoadHtmlUsingRemoteServer.Run();
+            CreateSimpleDocument.Run();
 
             //// Conversion
             //// =====================================================            

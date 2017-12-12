@@ -75,6 +75,7 @@
     <Compile Include="Conversion\AdjustPdfPageSize.cs" />
     <Compile Include="Conversion\HtmlToXPS.cs" />
     <Compile Include="Conversion\HtmlToPdf.cs" />
+    <Compile Include="Document\CreateSimpleDocument.cs" />
     <Compile Include="Document\LoadHtmlUsingRemoteServer.cs" />
     <Compile Include="Document\LoadHtmlUsingURL.cs" />
     <Compile Include="Document\ReadInnerHtml.cs" />
