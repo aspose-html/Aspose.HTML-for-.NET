@@ -28,7 +28,7 @@ namespace Aspose.Html.Examples.CSharp
             //ReadInnerHtml.Run();
             //LoadHtmlUsingURL.Run();
             //LoadHtmlUsingRemoteServer.Run();
-            CreateSimpleDocument.Run();
+            //CreateSimpleDocument.Run();
 
             //// Conversion
             //// =====================================================            
@@ -36,7 +36,8 @@ namespace Aspose.Html.Examples.CSharp
             //AdjustPdfPageSize.Run();
             //HtmlToXPS.Run();
             //AdjustXPSPageSize.Run();            
-                                 
+            SVGtoXPS.Run();  
+            
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();
