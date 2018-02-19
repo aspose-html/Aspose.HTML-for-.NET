@@ -4,6 +4,7 @@ using System.IO;
 using System.Text;
 using Aspose.Html.Examples.CSharp.Document;
 using Aspose.Html.Examples.CSharp.Conversion;
+using Aspose.Html.Examples.CSharp.QuickStart;
 
 namespace Aspose.Html.Examples.CSharp
 {
@@ -36,8 +37,14 @@ namespace Aspose.Html.Examples.CSharp
             //AdjustPdfPageSize.Run();
             //HtmlToXPS.Run();
             //AdjustXPSPageSize.Run();            
-            SVGtoXPS.Run();  
-            
+            SVGtoXPS.Run();
+            //HTMLtoPNG.Run();
+            //HTMLtoTIFF.Run();
+
+            //// QuickStart
+            //// =====================================================            
+            //ApplyMeteredLicense.Run();
+
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();
