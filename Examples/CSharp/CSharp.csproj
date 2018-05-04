@@ -60,8 +60,8 @@
     <StartupObject>Aspose.Html.Examples.CSharp.RunExamples</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.Html, Version=18.2.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.HTML.18.2.0\lib\net40\Aspose.Html.dll</HintPath>
+    <Reference Include="Aspose.HTML, Version=18.5.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.HTML.18.5.0\lib\net40\Aspose.HTML.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Conversion\AdjustXPSPageSize.cs" />
     <Compile Include="Conversion\AdjustPdfPageSize.cs" />
+    <Compile Include="Conversion\CanvasToPDF.cs" />
     <Compile Include="Conversion\HtmlToXPS.cs" />
     <Compile Include="Conversion\HtmlToPdf.cs" />
     <Compile Include="Conversion\SVGtoXPS.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Document\LoadHtmlDocWithCredentials.cs" />
     <Compile Include="Document\LoadHtmlUsingRemoteServer.cs" />
     <Compile Include="Document\LoadHtmlUsingURL.cs" />
+    <Compile Include="Document\ManipulateCanvas.cs" />
     <Compile Include="Document\ReadInnerHtml.cs" />
     <Compile Include="Document\LoadHtmlDoc.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

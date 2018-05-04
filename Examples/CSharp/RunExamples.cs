@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Aspose.Html.Examples.CSharp.Document;
-//using Aspose.Html.Examples.CSharp.Conversion;
+using Aspose.Html.Examples.CSharp.Conversion;
 //using Aspose.Html.Examples.CSharp.QuickStart;
 
 namespace Aspose.Html.Examples.CSharp
@@ -19,7 +19,7 @@ namespace Aspose.Html.Examples.CSharp
 
             // =====================================================
             // =====================================================
-            // Aspose.Html 
+            // Aspose.HTML 
             // =====================================================
             // =====================================================
 
@@ -29,8 +29,9 @@ namespace Aspose.Html.Examples.CSharp
             //ReadInnerHtml.Run();
             //LoadHtmlUsingURL.Run();
             //LoadHtmlUsingRemoteServer.Run();
-            LoadHtmlDocWithCredentials.Run();
+            //LoadHtmlDocWithCredentials.Run();
             //CreateSimpleDocument.Run();
+            //ManipulateCanvas.Run();
 
             //// Conversion
             //// =====================================================            
@@ -41,6 +42,7 @@ namespace Aspose.Html.Examples.CSharp
             //SVGtoXPS.Run();
             //HTMLtoPNG.Run();
             //HTMLtoTIFF.Run();
+            CanvasToPDF.Run();
 
             //// QuickStart
             //// =====================================================            
