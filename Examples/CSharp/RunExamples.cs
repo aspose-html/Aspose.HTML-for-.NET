@@ -42,7 +42,9 @@ namespace Aspose.Html.Examples.CSharp
             //SVGtoXPS.Run();
             //HTMLtoPNG.Run();
             //HTMLtoTIFF.Run();
-            CanvasToPDF.Run();
+            //CanvasToPDF.Run();
+            //HTMLtoMarkdown.Run();
+            //HTMLtoMHTML.Run();
 
             //// QuickStart
             //// =====================================================            

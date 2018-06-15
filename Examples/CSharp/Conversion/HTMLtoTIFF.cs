@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Aspose.Html.Rendering.Image;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Aspose.Html.Examples.CSharp.Conversion
             // The path to the documents directory
             string dataDir = RunExamples.GetDataDir_Data();
             Aspose.Html.Rendering.Image.ImageRenderingOptions pdf_options = new Aspose.Html.Rendering.Image.ImageRenderingOptions();
-
+            pdf_options.Format = ImageFormat.Tiff;
             // Instantiate PdfDevice object while passing PdfRenderingOptions and resultant file path as arguments
             using (Aspose.Html.Rendering.Image.ImageDevice pdf_device = new Aspose.Html.Rendering.Image.ImageDevice(pdf_options, dataDir + "Aspose_HTML.tiff"))
             // Create HtmlRenderer object
