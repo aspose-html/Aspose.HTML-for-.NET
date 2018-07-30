@@ -95,7 +95,11 @@
     <Compile Include="WorkingWithDevices\GenerateJPGByImageDevice.cs" />
     <Compile Include="WorkingWithDevices\GeneratePNGByImageDevice.cs" />
     <Compile Include="WorkingWithDevices\GenerateXPSByXpsDevice.cs" />
+    <Compile Include="WorkingWithRenderers\RenderEPUBAsXPS.cs" />
     <Compile Include="WorkingWithRenderers\RenderHTMLAsPNG.cs" />
+    <Compile Include="WorkingWithRenderers\RenderMHTMLAsXPS.cs" />
+    <Compile Include="WorkingWithRenderers\RenderMultipleDocuments.cs" />
+    <Compile Include="WorkingWithRenderers\RenderSVGDocAsPNG.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
