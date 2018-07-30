@@ -4,6 +4,9 @@ using System.IO;
 using System.Text;
 using Aspose.Html.Examples.CSharp.Document;
 using Aspose.Html.Examples.CSharp.Conversion;
+using Aspose.Html.Examples.CSharp.WorkingWithCSS;
+using Aspose.Html.Examples.CSharp.WorkingWithDevices;
+using Aspose.Html.Examples.CSharp.WorkingWithRenderers;
 //using Aspose.Html.Examples.CSharp.QuickStart;
 
 namespace Aspose.Html.Examples.CSharp
@@ -25,30 +28,49 @@ namespace Aspose.Html.Examples.CSharp
 
             //// Document
             //// =====================================================            
-            //LoadHtmlDoc.Run();
-            //ReadInnerHtml.Run();
-            //LoadHtmlUsingURL.Run();
-            //LoadHtmlUsingRemoteServer.Run();
-            //LoadHtmlDocWithCredentials.Run();
-            //CreateSimpleDocument.Run();
-            //ManipulateCanvas.Run();
+            // LoadHtmlDoc.Run();
+            // ReadInnerHtml.Run();
+            // LoadHtmlUsingURL.Run();
+            // LoadHtmlUsingRemoteServer.Run();
+            // LoadHtmlDocWithCredentials.Run();
+            // CreateSimpleDocument.Run();
+            // ManipulateCanvas.Run();
 
             //// Conversion
             //// =====================================================            
-            //HtmlToPdf.Run();
-            //AdjustPdfPageSize.Run();
-            //HtmlToXPS.Run();
-            //AdjustXPSPageSize.Run();            
-            //SVGtoXPS.Run();
-            //HTMLtoPNG.Run();
-            //HTMLtoTIFF.Run();
-            //CanvasToPDF.Run();
-            //HTMLtoMarkdown.Run();
-            //HTMLtoMHTML.Run();
+            // HtmlToPdf.Run();
+            // AdjustPdfPageSize.Run();
+            // HtmlToXPS.Run();
+            // AdjustXPSPageSize.Run();            
+            // SVGtoXPS.Run();
+            // HTMLtoPNG.Run();
+            // HTMLtoTIFF.Run();
+            // CanvasToPDF.Run();
+            // HTMLtoMarkdown.Run();
+            // HTMLtoMHTML.Run();
+
+            //// WorkingWithCSS
+            //// ===================================================== 
+            // UseExtendedContentProperty.Run();
+
+            //// WorkingWithDevices
+            //// ===================================================== 
+            // GeneratePNGByImageDevice.Run();
+            // GenerateJPGByImageDevice.Run();
+            // GenerateXPSByXpsDevice.Run();
+            // GenerateEncryptedPDFByPdfDevice.Run();
+
+            //// WorkingWithRenderers
+            //// ===================================================== 
+            // RenderHTMLAsPNG.Run();
+            // RenderSVGDocAsPNG.Run();
+            // RenderEPUBAsXPS.Run();
+            // RenderMHTMLAsXPS.Run();
+            // RenderMultipleDocuments.Run();
 
             //// QuickStart
             //// =====================================================            
-            //ApplyMeteredLicense.Run();
+            // ApplyMeteredLicense.Run();
 
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
