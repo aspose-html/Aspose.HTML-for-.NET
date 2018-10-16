@@ -8,6 +8,7 @@ using Aspose.Html.Examples.CSharp.WorkingWithCSS;
 using Aspose.Html.Examples.CSharp.WorkingWithDevices;
 using Aspose.Html.Examples.CSharp.WorkingWithRenderers;
 //using Aspose.Html.Examples.CSharp.QuickStart;
+using Aspose.Html.Examples.CSharp.WorkingWithMutationObserver;
 
 namespace Aspose.Html.Examples.CSharp
 {
@@ -35,6 +36,9 @@ namespace Aspose.Html.Examples.CSharp
             // LoadHtmlDocWithCredentials.Run();
             // CreateSimpleDocument.Run();
             // ManipulateCanvas.Run();
+            // LoadHTMLdocAsyn.Run();
+            // LoadHTMLdocAsyn.EventNavigate();
+
 
             //// Conversion
             //// =====================================================            
@@ -67,10 +71,18 @@ namespace Aspose.Html.Examples.CSharp
             // RenderEPUBAsXPS.Run();
             // RenderMHTMLAsXPS.Run();
             // RenderMultipleDocuments.Run();
+            // RenderingTimeout.Run();
+            // RenderingTimeout.IndefiniteTimeout();
+
 
             //// QuickStart
             //// =====================================================            
             // ApplyMeteredLicense.Run();
+
+            //// MutationObserver
+            //// =====================================================            
+            // MutationObserver.Run();
+
 
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
