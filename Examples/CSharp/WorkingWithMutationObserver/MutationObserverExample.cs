@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Aspose.Html.Examples.CSharp.WorkingWithMutationObserver
 {
-    public class MutationObserver
+    public class MutationObserverExample
     {
         public static void Run()
         {
