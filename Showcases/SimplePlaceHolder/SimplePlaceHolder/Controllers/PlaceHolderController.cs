@@ -12,15 +12,15 @@ namespace SimplePlaceHolder.Controllers
     {
         private const string ContentType = "image/svg+xml; charset=utf-8";
         private const string SvgXmlns = "http://www.w3.org/2000/svg";
-        private string dataDir;
+        private string _dataDir;
 
         [Route("placeholder/t/{widthStr}/{heightStr}/{fontColorStr}/{bkColorStr}")]
         public ActionResult GenerateFromTemplate(string widthStr, string heightStr, string fontColorStr, string bkColorStr)
         {
-            dataDir = Server.MapPath("/Content");
+            _dataDir = Server.MapPath("/Content");
 
             //Load image from template file
-            var document = new SVGDocument(dataDir + "\\template.svg");
+            var document = new SVGDocument(_dataDir + "\\template.svg");
             //Adjast image size
             document.RootElement.SetAttribute("width", widthStr);
             document.RootElement.SetAttribute("height", heightStr);

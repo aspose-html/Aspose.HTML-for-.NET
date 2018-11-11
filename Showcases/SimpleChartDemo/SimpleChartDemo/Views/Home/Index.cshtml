@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <table class="table table-bordered">
+            <caption>Top 10 Cities</caption>
+            <thead>
+            <tr>
+                <th>City</th>
+                <th>Population</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Chongqing</td><td>30165500</td>
+            </tr>
+            <tr>
+                <td>Shanghai</td><td>24183300</td>
+            </tr>
+            <tr>
+                <td>Beijing"</td><td>21707000</td>
+            </tr>
+            <tr>
+                <td>Istanbul</td><td>15029231</td>
+            </tr>
+            <tr>
+                <td>Karachi</td><td>14910352</td>
+            </tr>
+            <tr>
+                <td>Dhaka</td><td>14399000</td>
+            </tr>
+            <tr>
+                <td>Guangzhou</td><td>13081000</td>
+            </tr>
+            <tr>
+                <td>Shenzhen</td><td>12528300</td>
+            </tr>
+            <tr>
+                <td>Mumbai</td><td>12442373</td>
+            </tr>
+            <tr>
+                <td>Moscow</td><td>13200000</td>
+            </tr>
+            </tbody>
+        </table> 
+    </div>    
+    <div class="col-md-6">
+        <h3>Chart</h3>
+        <img src="@Url.Action("ChartDemo")" alt="Chart Demo"/>
+    </div>
+</div>
