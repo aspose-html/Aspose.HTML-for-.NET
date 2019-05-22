@@ -4,7 +4,7 @@ using Aspose.Html.Saving;
 
 namespace Aspose.Html.Examples.CSharp.Conversion
 {
-    class SVGtoXPS
+    public class SVGtoPDF
     {
         public static void Run()
         {
@@ -13,16 +13,16 @@ namespace Aspose.Html.Examples.CSharp.Conversion
             string dataDir = RunExamples.GetDataDir_Data();
             // Source SVG document  
             SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
-            // Initialize XpsSaveOptions 
-            XpsSaveOptions options = new XpsSaveOptions()
+            // Initialize pdfSaveOptions 
+            PdfSaveOptions options = new PdfSaveOptions()
             {
-                BackgroundColor = System.Drawing.Color.Cyan
+                JpegQuality = 100
             };
             // Output file path 
-            string outputFile = dataDir + "SVGtoXPS_Output.xps";
-            // Convert SVG to XPS 
+            string outputFile = dataDir + "SVGtoPDF_Output.pdf";
+            // Convert SVG to PDF 
             Converter.ConvertSVG(svgDocument, options, outputFile);
-            // ExEnd:1   
+            // ExEnd:1
         }
     }
 }

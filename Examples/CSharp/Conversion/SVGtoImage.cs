@@ -1,24 +1,24 @@
 ﻿using Aspose.Html.Converters;
+using Aspose.Html.Dom.Svg;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-
 namespace Aspose.Html.Examples.CSharp.Conversion
 {
-    public class HTMLtoPNG
+    public class SVGtoImage
     {
         public static void Run()
         {
             // ExStart:1
             // The path to the documents directory
             string dataDir = RunExamples.GetDataDir_Data();
-            // Source HTML document  
-            HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
+            // Source SVG document  
+            SVGDocument svgDocument = new SVGDocument(dataDir + "input.svg");
             // Initialize ImageSaveOptions 
-            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
+            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
             // Output file path 
-            string outputFile = dataDir + "HTMLtoPNG_Output.png";
-            // Convert HTML to PNG
-            Converter.ConvertHTML(htmlDocument, options, outputFile);
+            string outputFile = dataDir + "SVGtoImage_Output.jpeg";
+            // Convert SVG to Image
+            Converter.ConvertSVG(svgDocument, options, outputFile);
             // ExEnd:1           
         }
     }

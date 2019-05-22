@@ -4,7 +4,7 @@ using Aspose.Html.Saving;
 
 namespace Aspose.Html.Examples.CSharp.Conversion
 {
-    public class HTMLtoPNG
+    public class HTMLtoGIF
     {
         public static void Run()
         {
@@ -14,10 +14,10 @@ namespace Aspose.Html.Examples.CSharp.Conversion
             // Source HTML document  
             HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
             // Initialize ImageSaveOptions 
-            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
+            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
             // Output file path 
-            string outputFile = dataDir + "HTMLtoPNG_Output.png";
-            // Convert HTML to PNG
+            string outputFile = dataDir + "HTMLtoGIF_Output.gif";
+            // Convert HTML to GIF
             Converter.ConvertHTML(htmlDocument, options, outputFile);
             // ExEnd:1           
         }

@@ -1,8 +1,6 @@
-﻿using Aspose.Html.Saving;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
 
 namespace Aspose.Html.Examples.CSharp.Conversion
 {
@@ -10,34 +8,21 @@ namespace Aspose.Html.Examples.CSharp.Conversion
     {
         public static void Run()
         {
-            // ExStart:HTMLToMHTML
+            // ExStart:1
             // The path to the documents directory
             string dataDir = RunExamples.GetDataDir_Data();
-
-            using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", dataDir))
-            {
-                // Save to MHTML format
-                document.Save(dataDir + "document.mht", HTMLSaveFormat.MHTML);
-            }
-            // ExEnd:HTMLToMHTML           
+            // Source HTML Document 
+            HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
+            // Initialize MHTMLSaveOptions
+            MHTMLSaveOptions options = new MHTMLSaveOptions();
+            // Set the resource handling rules
+            options.ResourceHandlingOptions.MaxHandlingDepth = 1;
+            // Output file path 
+            string outputPDF = dataDir + "HTMLtoMHTML_Output.mht";
+            // Convert HTML to MHTML
+            Converter.ConvertHTML(htmlDocument, options, outputPDF);
+            // ExEnd:1          
         }
-        public static void MHTMLSaveOptions()
-        {
-
-            // The path to the documents directory.
-            string dataDir = RunExamples.GetDataDir_Data();
-            // ExStart:MHTMLSaveOptions
-            using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", dataDir))
-            {
-                var options = new Aspose.Html.Saving.MHTMLSaveOptions();
-                // Set the resource handling rules
-                options.ResourceHandlingOptions.MaxHandlingDepth = 1;
-
-                // Save to MHTML format
-                document.Save(dataDir + "document.mht", options);
-            }
-            // ExEnd:MHTMLSaveOptions          
-        }
-
+       
     }
 }
