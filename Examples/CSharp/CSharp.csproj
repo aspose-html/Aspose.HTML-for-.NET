@@ -64,8 +64,8 @@
     <StartupObject>Aspose.Html.Examples.CSharp.RunExamples</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.HTML, Version=19.4.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.HTML.19.4.0\lib\net40\Aspose.HTML.dll</HintPath>
+    <Reference Include="Aspose.HTML, Version=19.5.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.HTML.19.5.0\lib\net40\Aspose.HTML.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -78,12 +78,23 @@
     <Compile Include="Conversion\AdjustXPSPageSize.cs" />
     <Compile Include="Conversion\AdjustPdfPageSize.cs" />
     <Compile Include="Conversion\CanvasToPDF.cs" />
+    <Compile Include="Conversion\MHTMLtoPDF.cs" />
+    <Compile Include="Conversion\MHTMLtoImage.cs" />
+    <Compile Include="Conversion\MHTMLtoXPS.cs" />
+    <Compile Include="Conversion\EPUBtoXPS.cs" />
+    <Compile Include="Conversion\HTMLtoBMP.cs" />
+    <Compile Include="Conversion\HTMLtoGIF.cs" />
+    <Compile Include="Conversion\EPUBtoImage.cs" />
+    <Compile Include="Conversion\SVGtoImage.cs" />
+    <Compile Include="Conversion\HTMLtoJPEG.cs" />
     <Compile Include="Conversion\HTMLtoMarkdown.cs" />
     <Compile Include="Conversion\HTMLtoMHTML.cs" />
     <Compile Include="Conversion\HTMLtoPNG.cs" />
     <Compile Include="Conversion\HTMLtoTIFF.cs" />
-    <Compile Include="Conversion\HtmlToXPS.cs" />
-    <Compile Include="Conversion\HtmlToPdf.cs" />
+    <Compile Include="Conversion\HTMLtoXPS.cs" />
+    <Compile Include="Conversion\HTMLtoPDF.cs" />
+    <Compile Include="Conversion\EPUBtoPDF.cs" />
+    <Compile Include="Conversion\SVGtoPDF.cs" />
     <Compile Include="Conversion\SVGtoXPS.cs" />
     <Compile Include="Document\CreateSimpleDocument.cs" />
     <Compile Include="Document\LoadHTMLdocAsyn.cs" />
@@ -107,6 +118,8 @@
     <Compile Include="WorkingWithRenderers\RenderMHTMLAsXPS.cs" />
     <Compile Include="WorkingWithRenderers\RenderMultipleDocuments.cs" />
     <Compile Include="WorkingWithRenderers\RenderSVGDocAsPNG.cs" />
+    <Compile Include="WorkingWithTemplateMerger\MergeHTMLWithJson.cs" />
+    <Compile Include="WorkingWithTemplateMerger\MergeHTMLWithXML.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

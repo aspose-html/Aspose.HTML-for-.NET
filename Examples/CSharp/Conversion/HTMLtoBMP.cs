@@ -4,7 +4,7 @@ using Aspose.Html.Saving;
 
 namespace Aspose.Html.Examples.CSharp.Conversion
 {
-    public class HTMLtoPNG
+    public class HTMLtoBMP
     {
         public static void Run()
         {
@@ -14,10 +14,10 @@ namespace Aspose.Html.Examples.CSharp.Conversion
             // Source HTML document  
             HTMLDocument htmlDocument = new HTMLDocument(dataDir + "input.html");
             // Initialize ImageSaveOptions 
-            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
+            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Bmp);
             // Output file path 
-            string outputFile = dataDir + "HTMLtoPNG_Output.png";
-            // Convert HTML to PNG
+            string outputFile = dataDir + "HTMLtoBMP_Output.bmp";
+            // Convert HTML to BMP
             Converter.ConvertHTML(htmlDocument, options, outputFile);
             // ExEnd:1           
         }

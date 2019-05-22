@@ -1,0 +1,36 @@
+<Data>
+  <Title>Test</Title>
+  <Persons>
+    <Person>
+      <Name>John</Name>
+      <Surname>Smith</Surname>
+      <Address>
+        <Number>200</Number>
+        <Street>Austin rd.</Street>
+        <City>Dallas</City>
+      </Address>
+      <Phone1>345-345-34-55</Phone1>
+      <Phone2>345-555-09-09</Phone2>
+    </Person>
+    <Person>
+      <Name>Jack</Name>
+      <Surname>Fox</Surname>
+      <Address>
+        <Number>25</Number>
+        <Street>Broadway</Street>
+        <City>New York</City>
+      </Address>
+      <Phone1>081-544-12-15</Phone1>
+    </Person>
+    <Person>
+      <Name>Sherlock</Name>
+      <Surname>Holmes</Surname>
+      <Address>
+        <Number>65</Number>
+        <Street>Baker str.</Street>
+        <City>London</City>
+      </Address>
+      <Phone1>012-5344-334</Phone1>
+    </Person>
+  </Persons>
+</Data>

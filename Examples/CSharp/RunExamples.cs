@@ -9,6 +9,7 @@ using Aspose.Html.Examples.CSharp.WorkingWithDevices;
 using Aspose.Html.Examples.CSharp.WorkingWithRenderers;
 //using Aspose.Html.Examples.CSharp.QuickStart;
 using Aspose.Html.Examples.CSharp.WorkingWithMutationObserver;
+using Aspose.Html.Examples.CSharp.WorkingWithTemplateMerger;
 
 namespace Aspose.Html.Examples.CSharp
 {
@@ -40,18 +41,30 @@ namespace Aspose.Html.Examples.CSharp
             // LoadHTMLdocAsyn.EventNavigate();
 
 
-            //// Conversion
+            //// Conversions
             //// =====================================================            
-            // HtmlToPdf.Run();
-            // AdjustPdfPageSize.Run();
-            // HtmlToXPS.Run();
-            // AdjustXPSPageSize.Run();            
-            // SVGtoXPS.Run();
+            // HTMLtoPDF.Run();
+            // HTMLtoMHTML.Run();
+            // HTMLtoXPS.Run();
             // HTMLtoPNG.Run();
             // HTMLtoTIFF.Run();
+            // HTMLtoJPEG.Run();
+            // HTMLtoBMP.Run();
+            // HTMLtoGIF.Run();
+            // SVGtoXPS.Run();
+            // SVGtoPDF.Run();
+            // SVGtoImage.Run();
+            // EPUBtoXPS.Run();
+            // EPUBtoImage.Run();
+            // EPUBtoPDF.Run();
+            // MHTMLtoXPS.Run();
+            // MHTMLtoPDF.Run();
+            // MHTMLtoImage.Run();
+            // AdjustPdfPageSize.Run();
+            // AdjustXPSPageSize.Run();            
             // CanvasToPDF.Run();
             // HTMLtoMarkdown.Run();
-            // HTMLtoMHTML.Run();
+
 
             //// WorkingWithCSS
             //// ===================================================== 
@@ -83,11 +96,18 @@ namespace Aspose.Html.Examples.CSharp
             //// =====================================================            
             // MutationObserverExample.Run();
 
+            //// Working with Template Merger
+            //// =====================================================   
+            // MergeHTMLWithXML.Run();
+            // MergeHTMLWithJson.Run();
+ 
+
+
 
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
             Console.ReadKey();
-        }          
+        }
         public static string GetDataDir_Data()
         {
             var parent = Directory.GetParent(Directory.GetCurrentDirectory()).Parent;
@@ -105,6 +125,6 @@ namespace Aspose.Html.Examples.CSharp
                 startDirectory = parent.FullName;
             }
             return Path.Combine(startDirectory, "Data\\");
-        }   
+        }
     }
 }
