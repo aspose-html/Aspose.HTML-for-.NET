@@ -64,8 +64,8 @@
     <StartupObject>Aspose.Html.Examples.CSharp.RunExamples</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Aspose.HTML, Version=19.5.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
-      <HintPath>..\packages\Aspose.HTML.19.5.0\lib\net40\Aspose.HTML.dll</HintPath>
+    <Reference Include="Aspose.HTML, Version=19.6.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.HTML.19.6.0\lib\net40\Aspose.HTML.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -78,6 +78,7 @@
     <Compile Include="Conversion\AdjustXPSPageSize.cs" />
     <Compile Include="Conversion\AdjustPdfPageSize.cs" />
     <Compile Include="Conversion\CanvasToPDF.cs" />
+    <Compile Include="Conversion\MarkdownToHTML.cs" />
     <Compile Include="Conversion\MHTMLtoPDF.cs" />
     <Compile Include="Conversion\MHTMLtoImage.cs" />
     <Compile Include="Conversion\MHTMLtoXPS.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="WorkingWithDevices\GenerateJPGByImageDevice.cs" />
     <Compile Include="WorkingWithDevices\GeneratePNGByImageDevice.cs" />
     <Compile Include="WorkingWithDevices\GenerateXPSByXpsDevice.cs" />
+    <Compile Include="WorkingWithICreateStreamProvider\UseICreateStreamProvider.cs" />
     <Compile Include="WorkingWithMutationObserver\MutationObserverExample.cs" />
     <Compile Include="WorkingWithRenderers\RenderEPUBAsXPS.cs" />
     <Compile Include="WorkingWithRenderers\RenderHTMLAsPNG.cs" />
