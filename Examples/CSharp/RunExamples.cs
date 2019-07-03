@@ -10,6 +10,7 @@ using Aspose.Html.Examples.CSharp.WorkingWithRenderers;
 //using Aspose.Html.Examples.CSharp.QuickStart;
 using Aspose.Html.Examples.CSharp.WorkingWithMutationObserver;
 using Aspose.Html.Examples.CSharp.WorkingWithTemplateMerger;
+using Aspose.Html.Examples.CSharp.WorkingWithICreateStreamProvider;
 
 namespace Aspose.Html.Examples.CSharp
 {
@@ -64,6 +65,7 @@ namespace Aspose.Html.Examples.CSharp
             // AdjustXPSPageSize.Run();            
             // CanvasToPDF.Run();
             // HTMLtoMarkdown.Run();
+            // MarkdownToHTML.Run();
 
 
             //// WorkingWithCSS
@@ -100,7 +102,11 @@ namespace Aspose.Html.Examples.CSharp
             //// =====================================================   
             // MergeHTMLWithXML.Run();
             // MergeHTMLWithJson.Run();
- 
+
+            //// Working with ICreateStream Provider 
+            //// =====================================================
+            // UseICreateStreamProvider.Run();
+
 
 
 
