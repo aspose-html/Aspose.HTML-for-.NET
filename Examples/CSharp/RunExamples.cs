@@ -29,86 +29,88 @@ namespace Aspose.Html.Examples.CSharp
             // =====================================================
             // =====================================================
 
-            //// Document
+            #region Document
             //// =====================================================            
-            // LoadHtmlDoc.Run();
-            // ReadInnerHtml.Run();
-            // LoadHtmlUsingURL.Run();
-            // LoadHtmlUsingRemoteServer.Run();
-            // LoadHtmlDocWithCredentials.Run();
-            // CreateSimpleDocument.Run();
-            // ManipulateCanvas.Run();
-            // LoadHTMLdocAsyn.Run();
-            // LoadHTMLdocAsyn.EventNavigate();
+            //CreateSimpleDocument.Run();
+            //LoadHtmlDoc.Run();
+            //LoadHTMLdocAsyn.EventNavigate();
+            //LoadHTMLdocAsyn.Run();
+            //LoadHtmlDocWithCredentials.Run();
+            //LoadHtmlUsingRemoteServer.Run();
+            //LoadHtmlUsingURL.Run();
+            //ManipulateCanvas.Run();
+            //ReadInnerHtml.Run();
+            #endregion
 
+            #region Conversions
+            //AdjustPdfPageSize.Run();
+            //AdjustXPSPageSize.Run();
+            //CanvasToPDF.Run();
+            //EPUBtoImage.Run();
+            //EPUBtoPDF.Run();
+            //EPUBtoXPS.Run();
+            //HTMLtoBMP.Run();
+            //HTMLtoGIF.Run();
+            //HTMLtoJPEG.Run();
+            //HTMLtoMarkdown.Run();
+            //HTMLtoMHTML.Run();
+            //HTMLtoPDF.Run();
+            //HTMLtoPNG.Run();
+            //HTMLtoTIFF.Run();
+            //HTMLtoXPS.Run();
+            //MarkdownToHTML.Run();
+            //MHTMLtoImage.Run();
+            //MHTMLtoPDF.Run();
+            //MHTMLtoXPS.Run();
+            //SVGtoImage.Run();
+            //SVGtoPDF.Run();
+            //SVGtoXPS.Run();
+            #endregion
 
-            //// Conversions
-            //// =====================================================            
-            // HTMLtoPDF.Run();
-            // HTMLtoMHTML.Run();
-            // HTMLtoXPS.Run();
-            // HTMLtoPNG.Run();
-            // HTMLtoTIFF.Run();
-            // HTMLtoJPEG.Run();
-            // HTMLtoBMP.Run();
-            // HTMLtoGIF.Run();
-            // SVGtoXPS.Run();
-            // SVGtoPDF.Run();
-            // SVGtoImage.Run();
-            // EPUBtoXPS.Run();
-            // EPUBtoImage.Run();
-            // EPUBtoPDF.Run();
-            // MHTMLtoXPS.Run();
-            // MHTMLtoPDF.Run();
-            // MHTMLtoImage.Run();
-            // AdjustPdfPageSize.Run();
-            // AdjustXPSPageSize.Run();            
-            // CanvasToPDF.Run();
-            // HTMLtoMarkdown.Run();
-            // MarkdownToHTML.Run();
-
-
-            //// WorkingWithCSS
+            #region WorkingWithCSS
             //// ===================================================== 
             // UseExtendedContentProperty.Run();
+            #endregion
 
-            //// WorkingWithDevices
+            #region WorkingWithDevices
             //// ===================================================== 
-            // GeneratePNGByImageDevice.Run();
-            // GenerateJPGByImageDevice.Run();
-            // GenerateXPSByXpsDevice.Run();
-            // GenerateEncryptedPDFByPdfDevice.Run();
+            GenerateEncryptedPDFByPdfDevice.Run();
+            GenerateJPGByImageDevice.Run();
+            GeneratePNGByImageDevice.Run();
+            GenerateXPSByXpsDevice.Run();
+            #endregion
 
-            //// WorkingWithRenderers
+            #region WorkingWithRenderers
             //// ===================================================== 
-            // RenderHTMLAsPNG.Run();
-            // RenderSVGDocAsPNG.Run();
-            // RenderEPUBAsXPS.Run();
-            // RenderMHTMLAsXPS.Run();
-            // RenderMultipleDocuments.Run();
-            // RenderingTimeout.Run();
-            // RenderingTimeout.IndefiniteTimeout();
+            RenderEPUBAsXPS.Run();
+            RenderHTMLAsPNG.Run();
+            RenderingTimeout.IndefiniteTimeout();
+            RenderingTimeout.Run();
+            RenderMHTMLAsXPS.Run();
+            RenderMultipleDocuments.Run();
+            RenderSVGDocAsPNG.Run();
+            #endregion
 
-
-            //// QuickStart
+            #region QuickStart
             //// =====================================================            
             // ApplyMeteredLicense.Run();
+            #endregion
 
-            //// MutationObserver
+            #region MutationObserver
             //// =====================================================            
             // MutationObserverExample.Run();
+            #endregion
 
-            //// Working with Template Merger
+            #region Working with Template Merger
             //// =====================================================   
             // MergeHTMLWithXML.Run();
             // MergeHTMLWithJson.Run();
+            #endregion
 
-            //// Working with ICreateStream Provider 
+            #region Working with ICreateStream Provider 
             //// =====================================================
             // UseICreateStreamProvider.Run();
-
-
-
+            #endregion
 
             // Stop before exiting
             Console.WriteLine("\n\nProgram Finished. Press any key to exit....");
