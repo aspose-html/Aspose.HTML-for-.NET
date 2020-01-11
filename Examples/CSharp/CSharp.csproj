@@ -97,7 +97,9 @@
     <Compile Include="Conversion\EPUBtoPDF.cs" />
     <Compile Include="Conversion\SVGtoPDF.cs" />
     <Compile Include="Conversion\SVGtoXPS.cs" />
+    <Compile Include="Document\CreateDocument.cs" />
     <Compile Include="Document\CreateSimpleDocument.cs" />
+    <Compile Include="Document\EditDocument.cs" />
     <Compile Include="Document\LoadHTMLdocAsyn.cs" />
     <Compile Include="Document\LoadHtmlDocWithCredentials.cs" />
     <Compile Include="Document\LoadHtmlUsingRemoteServer.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Document\ManipulateCanvas.cs" />
     <Compile Include="Document\ReadInnerHtml.cs" />
     <Compile Include="Document\LoadHtmlDoc.cs" />
+    <Compile Include="Document\SaveDocument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RunExamples.cs" />
     <Compile Include="WorkingWithCSS\UseExtendedContentProperty.cs" />
