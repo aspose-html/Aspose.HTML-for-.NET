@@ -73,7 +73,7 @@ namespace Aspose.Html.Examples.CSharp.Document
         private static void FromHTML()
         {
             //ExStart: FromHTML
-            using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", "about:blank"))
+            using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", "."))
             {
                 // do some actions over the document here...
             }
