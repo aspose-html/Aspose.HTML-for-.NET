@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using Aspose.Html.Examples.CSharp.AdvancedUsage;
 using Aspose.Html.Examples.CSharp.Document;
 using Aspose.Html.Examples.CSharp.Conversion;
+using Aspose.Html.Examples.CSharp.ConvertingBetweenFormats;
 using Aspose.Html.Examples.CSharp.WorkingWithCSS;
 using Aspose.Html.Examples.CSharp.WorkingWithDevices;
+using Aspose.Html.Examples.CSharp.WorkingWithDocuments;
 using Aspose.Html.Examples.CSharp.WorkingWithRenderers;
 //using Aspose.Html.Examples.CSharp.QuickStart;
 using Aspose.Html.Examples.CSharp.WorkingWithMutationObserver;
@@ -28,6 +31,202 @@ namespace Aspose.Html.Examples.CSharp
             // Aspose.HTML 
             // =====================================================
             // =====================================================
+
+            #region EnvironmentConfiguration
+            //EnvironmentConfiguration.DisableScriptsExecution();
+            //EnvironmentConfiguration.SpecifyUserStyleSheet();
+            //EnvironmentConfiguration.JavaScriptExecutionTimeout();
+            //EnvironmentConfiguration.CustomMessageHandler();
+            #endregion
+
+            #region CreatingADocument
+            //CreatingADocument.HTMLDocumentFromScratch();
+            //CreatingADocument.HTMLDocumentFromFile();
+            //CreatingADocument.HTMLDocumentFromURL();
+            //CreatingADocument.HTMLDocumentFromString();
+            //CreatingADocument.HTMLDocumentFromMemoryStream();
+            //CreatingADocument.SVGDocumentFromString();
+            //CreatingADocument.HTMLDocumentAsynchronouslyOnReadyStateChange();
+            //CreatingADocument.HTMLDocumentAsynchronouslyOnLoad();
+            #endregion
+
+            #region EditingADocument
+            //EditingADocument.UsingDOM();
+            //EditingADocument.UsingInnerOuterHTML();
+            //EditingADocument.EditCSS();
+            #endregion
+
+            #region SavingADocument
+            //SavingADocument.HTMLToFile();
+            //SavingADocument.HTMLWithoutLinkedFile();
+            //SavingADocument.HTMLToMHTML();
+            //SavingADocument.HTMLToMarkdown();
+            //SavingADocument.SVGToFile();
+            #endregion
+
+            #region ConvertHTMLToImage
+            //ConvertHTMLToImage.WithASingleLine();
+            //ConvertHTMLToImage.ConvertHTMLToJPG();
+            //ConvertHTMLToImage.ConvertHTMLToPNG();
+            //ConvertHTMLToImage.ConvertHTMLToBMP();
+            //ConvertHTMLToImage.ConvertHTMLToGIF();
+            //ConvertHTMLToImage.ConvertHTMLToTIFF();
+            //ConvertHTMLToImage.SpecifyImageSaveOptions();
+            //ConvertHTMLToImage.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertHTMLToPDF
+            //ConvertHTMLToPDF.WithASingleLine();
+            //ConvertHTMLToPDF.ConvertHTMLDocumentToPDF();
+            //ConvertHTMLToPDF.SpecifyPdfSaveOptions();
+            //ConvertHTMLToPDF.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertHTMLToXPS
+            //ConvertHTMLToXPS.WithASingleLine();
+            //ConvertHTMLToXPS.ConvertHTMLDocumentToXPS();
+            //ConvertHTMLToXPS.SpecifyXpsSaveOptions();
+            //ConvertHTMLToXPS.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertHTMLToMarkdown
+            //ConvertHTMLToMarkdown.WithASingleLine();
+            //ConvertHTMLToMarkdown.SpecifyMarkdownSaveOptions();
+            //ConvertHTMLToMarkdown.ConvertUsingGitSyntax();
+            //ConvertHTMLToMarkdown.InlineHTML();
+            #endregion
+
+            #region ConvertHTMLToMHTML
+            //ConvertHTMLToMHTML.WithASingleLine();
+            //ConvertHTMLToMHTML.ConvertHTMLDocumentToMHTML();
+            //ConvertHTMLToMHTML.SpecifyMHTMLSaveOptions();
+            #endregion
+
+            #region ConvertSVGToImage
+            //ConvertSVGToImage.WithASingleLine();
+            //ConvertSVGToImage.ConvertSVGToJPG();
+            //ConvertSVGToImage.ConvertSVGToPNG();
+            //ConvertSVGToImage.ConvertSVGToBMP();
+            //ConvertSVGToImage.ConvertSVGToGIF();
+            //ConvertSVGToImage.ConvertSVGToTIFF();
+            //ConvertSVGToImage.SpecifyImageSaveOptions();
+            //ConvertSVGToImage.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertSVGToPDF
+            //ConvertSVGToPDF.WithASingleLine();
+            //ConvertSVGToPDF.ConvertSVGDocumentToPDF();
+            //ConvertSVGToPDF.SpecifyPdfSaveOptions();
+            //ConvertSVGToPDF.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertSVGToXPS
+            //ConvertSVGToXPS.WithASingleLine();
+            //ConvertSVGToXPS.ConvertSVGDocumentToXPS();
+            //ConvertSVGToXPS.SpecifyXpsSaveOptions();
+            //ConvertSVGToXPS.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertEPUBToImage
+            //ConvertEPUBToImage.WithASingleLine();
+            //ConvertEPUBToImage.ConvertEPUBToJPG();
+            //ConvertEPUBToImage.ConvertEPUBToPNG();
+            //ConvertEPUBToImage.ConvertEPUBToBMP();
+            //ConvertEPUBToImage.ConvertEPUBToGIF();
+            //ConvertEPUBToImage.ConvertEPUBToTIFF();
+            //ConvertEPUBToImage.SpecifyImageSaveOptions();
+            //ConvertEPUBToImage.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertEPUBToPDF
+            //ConvertEPUBToPDF.WithASingleLine();
+            //ConvertEPUBToPDF.ConvertEPUBFileToPDF();
+            //ConvertEPUBToPDF.SpecifyPdfSaveOptions();
+            //ConvertEPUBToPDF.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertEPUBToXPS
+            //ConvertEPUBToXPS.WithASingleLine();
+            //ConvertEPUBToXPS.ConvertEPUBFileToXPS();
+            //ConvertEPUBToXPS.SpecifyXpsSaveOptions();
+            //ConvertEPUBToXPS.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertMHTMLToImage
+            //ConvertMHTMLToImage.WithASingleLine();
+            //ConvertMHTMLToImage.ConvertMHTMLToJPG();
+            //ConvertMHTMLToImage.ConvertMHTMLToPNG();
+            //ConvertMHTMLToImage.ConvertMHTMLToBMP();
+            //ConvertMHTMLToImage.ConvertMHTMLToGIF();
+            //ConvertMHTMLToImage.ConvertMHTMLToTIFF();
+            //ConvertMHTMLToImage.SpecifyImageSaveOptions();
+            //ConvertMHTMLToImage.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertMHTMLToPDF
+            //ConvertMHTMLToPDF.WithASingleLine();
+            //ConvertMHTMLToPDF.ConvertMHTMLFileToPDF();
+            //ConvertMHTMLToPDF.SpecifyPdfSaveOptions();
+            //ConvertMHTMLToPDF.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertMHTMLToXPS
+            //ConvertMHTMLToXPS.WithASingleLine();
+            //ConvertMHTMLToXPS.ConvertMHTMLFileToXPS();
+            //ConvertMHTMLToXPS.SpecifyXpsSaveOptions();
+            //ConvertMHTMLToXPS.SpecifyCustomStreamProvider();
+            #endregion
+
+            #region ConvertMarkdownToHTML
+            //ConvertMarkdownToHTML.WithASingleLine();
+            //ConvertMarkdownToHTML.ConvertMarkdownToPNG();
+            #endregion
+
+            #region HTMLTemplate
+            //HTMLTemplate.CreateHTMLFromTemplate();
+            #endregion
+
+            #region FineTuningConverters
+            //FineTuningConverters.SpecifyOutputDevice();
+            //FineTuningConverters.SpecifyRenderingOptions();
+            //FineTuningConverters.SpecifyResolution();
+            //FineTuningConverters.SpecifyBackgroundColor();
+            //FineTuningConverters.SpecifyLeftRightPageSize();
+            //FineTuningConverters.AdjustPageSizeToContent();
+            //FineTuningConverters.SpecifyPDFPermissions();
+            //FineTuningConverters.SpecifyImageSpecificOptions();
+            //FineTuningConverters.SpecifyXpsRenderingOptions();
+            //FineTuningConverters.CombineMultipleHTMLToPDF();
+            //FineTuningConverters.RendererTimeoutExample();
+            #endregion
+
+            #region WebScraping
+            //WebScraping.WebScraping.NavigateThroughHTML();
+            //WebScraping.WebScraping.NodeFilterUsageExample();
+            //WebScraping.WebScraping.XPathQueryUsageExample();
+            //WebScraping.WebScraping.CSSSelectorUsageExample();
+            #endregion
+
+            #region HTML5Canvas
+            //HTML5Canvas.ManipulateUsingJavaScript();
+            //HTML5Canvas.ManipulateUsingCode();
+            #endregion
+
+            #region OutputStreams
+            //OutputStreams.StreamProviderUsageExample();
+            #endregion
+
+            #region DOMMutationObserver
+            //DOMMutationObserver.ObserveHowNodesAreAdded();
+            #endregion
+
+            #region HTMLFormEditor
+            //HTMLFormEditor.FillFormAndSubmitIt();
+            #endregion
+
+            #region CSSExtensions
+            //CSSExtensions.AddTitleAndPageNumber();
+            #endregion
 
             #region Document
             //// =====================================================            
@@ -74,21 +273,21 @@ namespace Aspose.Html.Examples.CSharp
 
             #region WorkingWithDevices
             //// ===================================================== 
-            GenerateEncryptedPDFByPdfDevice.Run();
-            GenerateJPGByImageDevice.Run();
-            GeneratePNGByImageDevice.Run();
-            GenerateXPSByXpsDevice.Run();
+            //GenerateEncryptedPDFByPdfDevice.Run();
+            //GenerateJPGByImageDevice.Run();
+            //GeneratePNGByImageDevice.Run();
+            //GenerateXPSByXpsDevice.Run();
             #endregion
 
             #region WorkingWithRenderers
             //// ===================================================== 
-            RenderEPUBAsXPS.Run();
-            RenderHTMLAsPNG.Run();
-            RenderingTimeout.IndefiniteTimeout();
-            RenderingTimeout.Run();
-            RenderMHTMLAsXPS.Run();
-            RenderMultipleDocuments.Run();
-            RenderSVGDocAsPNG.Run();
+            //RenderEPUBAsXPS.Run();
+            //RenderHTMLAsPNG.Run();
+            //RenderingTimeout.IndefiniteTimeout();
+            //RenderingTimeout.Run();
+            //RenderMHTMLAsXPS.Run();
+            //RenderMultipleDocuments.Run();
+            //RenderSVGDocAsPNG.Run();
             #endregion
 
             #region QuickStart
