@@ -61,6 +61,11 @@ namespace Aspose.HTML.Live.Demos.UI
 				 new { controller = "Conversion", action = "Conversion" }
 			);
 			routes.MapRoute(
+				"AsposeMarkDownRoute",
+				"{product}/markdown",
+				 new { controller = "MarkDown", action = "MarkDown" }
+			);
+			routes.MapRoute(
 				"DownloadFileRoute",
 				"common/download",
 				new { controller = "Common", action = "DownloadFile" }

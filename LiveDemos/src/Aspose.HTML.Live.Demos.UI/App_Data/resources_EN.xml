@@ -70,9 +70,31 @@
 	<res name="ConversionAnotherFile">Convert other documents</res>
 	<res name="ConversionSuccessMessage">Your files have been processed successfully</res>	
 	<res name="ConversionAction">Convert</res>
+	<res name="htmlMarkDownValidationExpression">.md|.txt</res>
+	<res name="htmlMarkDownSaveAsOptions">HTML</res>
 
-	
-	
+	<res name="htmlMarkDownPageTitle">Convert Markdown to HTML page</res>
+	<res name="htmlMarkDownMetaDescription">Convert your markdown to HTML in one easy step - for free!</res>
+	<res name="htmlMarkDownTitle">Convert Markdown to HTML document</res>
+	<res name="htmlMarkDownSubTitle">Just upload your MD or TXT document, select the output format and hit the button. That is it!</res>
+
+	<res name="MarkDownFeature1">Fast and Easy Conversion</res>
+	<res name="MarkDownFeature1Description">Upload your document, choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+
+	<res name="MarkDownFeature2">Convert from Anywhere</res>
+	<res name="MarkDownFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+	<res name="MarkDownFeature3">Conversion Quality</res>
+	<res name="MarkDownButton">CONVERT</res>
+	<res name="MarkDownAnotherFile">Convert other documents</res>
+	<res name="MarkDownSuccessMessage">Your files have been processed successfully</res>
+	<res name="MarkDownAction">Convert</res>
+
+	<res name="HowtoMarkDownTitle">How to convert {0} file using {1}</res>
+	<res name="HowtoMarkDownFeature1">Click inside the file drop area to upload file or drag &amp; drop file.</res>
+	<res name="HowtoMarkDownFeature2">Your file will be uploaded and will be converted to required format.</res>
+	<res name="HowtoMarkDownFeature3">Download link of converted file will be available instantly after conversion.</res>
+
+	<res name="MarkDownCategory">MarkDown</res>
 </resources>
 
 
