@@ -228,6 +228,7 @@
     <Content Include="img\asposetoolsnew.png" />
     <Content Include="img\aspose_conversion-app.png" />
     <Content Include="img\aspose_html-brand.png" />
+    <Content Include="img\aspose_merger-app.png" />
     <Content Include="img\loader-sm.gif" />
     <Content Include="img\pdf-192.png" />
     <Content Include="img\pdf-512.png" />
@@ -470,6 +471,7 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\MarkDown\MarkDown.cshtml" />
+    <Content Include="Views\Merger\Merger.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -484,6 +486,7 @@
     <Compile Include="Controllers\MarkDownController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ConversionController.cs" />
+    <Compile Include="Controllers\MergerController.cs" />
     <Compile Include="Helpers\Extenders.cs" />
     <Compile Include="Helpers\FilePathLock.cs" />
     <Compile Include="Helpers\Html\Action.cs" />
@@ -513,6 +516,7 @@
     <Compile Include="Helpers\MultipartFormDataStreamProviderSafe.cs" />
     <Compile Include="Helpers\PathSafe.cs" />
     <Compile Include="Models\AsposeHtmlConversion.cs" />
+    <Compile Include="Models\AsposeHtmlMerger.cs" />
     <Compile Include="Models\ModelBase.cs" />
     <Compile Include="Models\AsposeHTMLBase.cs" />
     <Compile Include="Helpers\XmlActionResult.cs" />
@@ -557,8 +561,48 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Response.cs" />
+    <Compile Include="Services\Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Services\Extensions\FileFormatExtensions.cs" />
     <Compile Include="Services\FileManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\HTML\Applications\Application.cs" />
+    <Compile Include="Services\HTML\Applications\ApplicationExecutionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\ApplicationId.cs" />
+    <Compile Include="Services\HTML\Applications\ApplicationOptions.cs" />
+    <Compile Include="Services\HTML\Applications\ApplicationRegistry.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\ConversionApplication.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\ConversionApplicationOptions.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\ConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\ConversionHandlerFilter.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\EPUBConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\HTMLConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\HTMLToMHTMLConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\MarkdownConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\MHTMLConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Conversion\SVGConversionHandler.cs" />
+    <Compile Include="Services\HTML\Applications\ErrorCodes.cs" />
+    <Compile Include="Services\HTML\Applications\ExecutionHandlerFilter.cs" />
+    <Compile Include="Services\HTML\Applications\MatchResult.cs" />
+    <Compile Include="Services\HTML\Applications\Merger\MergerApplication.cs" />
+    <Compile Include="Services\HTML\Applications\Merger\MergerApplicationOptions.cs" />
+    <Compile Include="Services\HTML\Applications\Merger\MergerHandler.cs" />
+    <Compile Include="Services\HTML\Applications\Merger\MergerHandlerFilter.cs" />
+    <Compile Include="Services\HTML\Applications\Merger\SVGMergerHandler.cs" />
+    <Compile Include="Services\HTML\ConversionOptions.cs" />
+    <Compile Include="Services\HTML\DataProvider.cs" />
+    <Compile Include="Services\HTML\DataRecordFactory.cs" />
+    <Compile Include="Services\HTML\DataSource.cs" />
+    <Compile Include="Services\HTML\DataSources\ArchiveDataSource.cs" />
+    <Compile Include="Services\HTML\DataSources\LocalFileDataSource.cs" />
+    <Compile Include="Services\HTML\DataSources\UrlDataSource.cs" />
+    <Compile Include="Services\HTML\FileFormat.cs" />
+    <Compile Include="Services\HTML\FileNameProvider.cs" />
+    <Compile Include="Services\HTML\HTMLOperationContextScope.cs" />
+    <Compile Include="Services\HTML\HTMLService.cs" />
+    <Compile Include="Services\HTML\IFileNameProvider.cs" />
+    <Compile Include="Services\HTML\InputDataProvider.cs" />
+    <Compile Include="Services\HTML\Result.cs" />
+    <Compile Include="Services\HTML\UrlDataProvider.cs" />
     <Compile Include="Services\PathProcessor.cs" />
   </ItemGroup>
   <ItemGroup>

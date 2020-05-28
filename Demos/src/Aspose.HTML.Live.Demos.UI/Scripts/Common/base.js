@@ -201,7 +201,15 @@ function request(url, data) {
 		}
 	});
 }
+function requestMerger() {
+	let data = fileDrop.prepareFormData(2, o.MaximumUploadFiles);
+	if (data === null)
+		return;
 
+
+	let url = o.UIBasePath + 'Merger/Merger?outputType=' + $('#saveAs').val();
+	request(url, data);
+}
 function requestConversion() {
 	let data = fileDrop.prepareFormData();
 	if (data === null)

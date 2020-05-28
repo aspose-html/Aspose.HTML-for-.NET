@@ -61,6 +61,11 @@ namespace Aspose.HTML.Live.Demos.UI
 				 new { controller = "Conversion", action = "Conversion" }
 			);
 			routes.MapRoute(
+				"AsposeMergerRoute",
+				"{product}/Merger",
+				 new { controller = "Merger", action = "Merger" }
+			);
+			routes.MapRoute(
 				"AsposeMarkDownRoute",
 				"{product}/markdown",
 				 new { controller = "MarkDown", action = "MarkDown" }

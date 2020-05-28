@@ -22,8 +22,9 @@
   <res name="btnBackHome">Back to Home</res>
 	<res name="FileSelectMessage">Please select a file to convert</res>
   <res name="SaveAs">Save as</res>
-	
+	<res name="MergerFileAmountMessage">Please select between two and ten files</res>
 	<res name="htmlConversionSaveAsOptions">PDF,XPS,JPG,PNG,BMP,TIFF,GIF,MHTML,MD</res>
+	<res name="htmlMergerSaveAsOptions">PDF,MHTML,XPS,TIFF</res>
   <res name="DropOrUploadFile">Drop or upload your file</res>
   <res name="DropOrUploadFiles">Drop or upload your files</res>
 	<res name="htmlValidationExpression">.html|.xhtml|.mhtml|.zip|.epub|.svg</res>
@@ -95,6 +96,34 @@
 	<res name="HowtoMarkDownFeature3">Download link of converted file will be available instantly after conversion.</res>
 
 	<res name="MarkDownCategory">MarkDown</res>
+
+
+	<res name="htmlMergerPageTitle">Merge HTML Online</res>
+	<res name="htmlMergerMetaDescription">Free Online HTML Merger to a single PDF, MHTML or XPS file.</res>
+	<res name="htmlMergerTitle">Free Online HTML Merger</res>
+	<res name="htmlMergerSubTitle">High Quality Online HTML Merger which works on any Platform for Free.</res>
+
+	<res name="htmlMergerLiFeature1">Combine different files into one</res>
+
+	<res name="htmlMergerLiFeature2">Choose the order of merged files</res>
+
+	<!-- Conversion App - How To-->
+	<res name="HowtoMergerTitle">How to merge {0} files using {1}</res>
+	<res name="HowtoMergerFeature1">Click inside the file drop area to upload files or drag &amp; drop files.</res>
+	<res name="HowtoMergerFeature2">Click the "MERGE NOW" button to start merging files.</res>
+	<res name="HowtoMergerFeature3">Download link of merged file will be available instantly after merger.</res>
+
+	<res name="MergerButton">MERGE NOW</res>
+
+	<res name="MergerFeature1">Fast and Easy Way to Merge</res>
+	<res name="MergerFeature1Description">Upload your documents and click on “MERGE NOW” button. It will merge your document files into one and provide you a download link to download merged document. The output format will be the output format of your first document</res>
+	<res name="MergerFeature2">Merge from Anywhere</res>
+	<res name="MergerFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+	<res name="MergerFeature3">Merge Quality</res>
+
+	<res name="MergerAnotherFile">Merge other documents</res>
+	<res name="MergerSuccessMessage">Your files have been processed successfully</res>
+
 </resources>
 
 
