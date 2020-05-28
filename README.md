@@ -3,7 +3,7 @@
 [Aspose.HTML for .NET](https://products.aspose.com/html/net) is an advanced [HTML](https://wiki.fileformat.com/web/html/) manipulation API that enables you to perform a wide range of HTML manipulation tasks directly within your .NET applications.
 Aspose.HTML for .NET allows to create, load, edit or convert (X)HTML documents without requiring additional software or tools. Along with manipulation functions, the API also provides the high fidelity rendering engine for fixed-layout formats such as PDF & XPS, and a number of raster image formats.
 
-This repository contains [Examples](Examples) and [Demos](Demos) projects for [Aspose.HTML for .NET](https://products.aspose.com/html/net) to help you learn and write your own applications.
+This repository contains [Demos](Demos) and [Examples](Examples) projects for [Aspose.HTML for .NET](https://products.aspose.com/html/net) to help you learn and write your own applications.
 
 <p align="center">
 
@@ -14,8 +14,8 @@ This repository contains [Examples](Examples) and [Demos](Demos) projects for [A
 
 Directory | Description
 --------- | -----------
-[Examples](Examples)  | A collection of .NET examples that help you learn the product features
 [Demos](Demos)  | Aspose.HTML for .NET Live Demos Source Code
+[Examples](Examples)  | A collection of .NET examples that help you learn the product features
 
 ## How to Run the Examples
 + You can either clone the repository using your favorite GitHub client or download the ZIP file from here.
