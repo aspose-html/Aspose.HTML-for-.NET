@@ -1,0 +1,61 @@
+---
+title: Features List
+type: docs
+bookCollapseSection: false
+weight: 10
+url: htmlnet/features-list
+---
+
+# **Features List**
+Aspose.HTML is a **headless browser**, written in C#, which offers the following features: create, open existing, manipulate, navigate through and convert (X)HTML, SVG, EPUB, MHTML and Markdown documents into the various supported output formats such as: PDF, XPS, Markdown, JPG, PNG, etc. All the core modules are implemented according to the official HTML, CSS and JavaScript documentations, which leads to high quality parsing, conversion and manipulation results.
+
+Aspose.HTML provides a rich set of features, related to many different areas:
+## **Document Manipulation**
+- Create a [new](Creating%2Ba%2BDocument.html#CreatingaDocument-CreateaNewHTMLDocument) or open an existing [(X)HTML](Creating%2Ba%2BDocument.html#CreatingaDocument-LoadfromaFile) or [SVG](Creating%2Ba%2BDocument.html#CreatingaDocument-SVGDocument) document. With the help of Aspose.HTML you will be able to open document not only from the local file, but directly from the web!
+- [Save](Saving%2Ba%2BDocument.html#SavingaDocument-SaveHTML) the document along with all the referenced resources, such as CSS and images. Aspose.HTML offers you the highly customizable saver, which is able to save not only the document itself, with all the referenced resources, but even other documents, referenced by it!
+- [Create, edit, remove and replace](Editing%2Ba%2BDocument.html) HTML nodes via the rich API based on the Document Object Model (DOM) defined in the official [documentation](https://dom.spec.whatwg.org/).
+- Wide possibilities of environment [customization](Environment%2BConfiguration.html). You can specify [user style sheet](Environment%2BConfiguration.html#EnvironmentConfiguration-UserStyleSheet), [font folder](Environment%2BConfiguration.html#EnvironmentConfiguration-SetPathtotheFontFolder), [external resource handler](Environment%2BConfiguration.html#EnvironmentConfiguration-NetworkService) and much more.
+## **Web Scraping**
+Although Aspose.HTML is not a web scraper by itself, but it can be used to collect information from the opened document:
+
+- [Navigate](Web%2BScraping.html#WebScraping-HTMLnavigation) through the HTML elements with the help of DOM API. Aspose.HTML implements [Traversal](https://dom.spec.whatwg.org/#traversal) interfaces which allows you to easily navigate through the DOM tree.
+- Collect information from the HTML documents, using high performance [XPath queries](Web%2BScraping.html#WebScraping-XPath). Aspose.HTML supports XPath 1.0 interfaces, defined in the official [documentation](https://dom.spec.whatwg.org/#xpath).
+- Collect HTML elements, by executing [CSS Selector queries](Web%2BScraping.html#WebScraping-CSSSelector). Aspose.HTML implements [CSS Selectors API](https://www.w3.org/TR/selectors-4/)  according to the lates documentation.
+## **Conversion**
+One of the main goals of Aspose.HTML - is to provide simple, highly customizable and precise converters. 
+
+**Simplicity:** Aspose.HTML API provides you the ability to convert (X)HTML, SVG, EPUB and MHTML to many different formats with just one line of code. Here is an example of HTML to PDF conversion:
+
+{{< highlight csharp >}}
+
+ Aspose.Html.Converters.Converter.ConvertHTML(@"<span>Hello World!!</span>", ".", new Aspose.Html.Saving.PdfSaveOptions(), "output.pdf");
+
+{{< /highlight >}}
+
+**Сustomizability:** With Aspose.HTML you will be able to [fine-tune](Fine-Tuning%2BConverters.html) many aspects of the conversion process. Many other products will allow you to setup page size or image resolution, but with Aspose.HTML you will be able to [customize processing of external resources](Environment%2BConfiguration.html#EnvironmentConfiguration-NetworkService), or[ specify custom style sheet](Environment%2BConfiguration.html#EnvironmentConfiguration-UserStyleSheet) for your document and much more.
+
+**Precision:** All the components of Aspose.HTML assembly are designed according to the official HTML and SVG documentations. Which leads to high precision conversion results. 
+
+Aspose.HTML implements many converters, which can be split into three groups:
+
+1. Fixed layout converters. These converters are responsible for conversion of (X)HTML, SVG, EPUB and MHTML to PDF, XPS and raster image formats (PNG, JPG, BMP). 
+1. Markdown converters. These converters are responsible for conversion of [Markdown to HTML](Markdown%2BTo%2BHTML%2BConversion.html) and [HTML to Markdown](HTML%2Bto%2BMarkdown%2BConversion.html).
+1. Template converter. Which is used to create [HTML file from Template](HTML%2BTemplate.html).
+
+You can explore all the available converters on this [page.](Converting%2BBetween%2BFormats.html)
+## **Built-in Formats**
+Real world HTML page - is a very complex set of formats, working together. That's why development of high quality converter is such a complex task. Aspose.HTML includes implementations of all the HTML related formats:
+
+- Parser works according to the latest [HTML5](https://html.spec.whatwg.org/multipage/parsing.html) specification. Which means, that Aspose.HTML will always provide you the correct DOM tree.
+- Our JavaScript processing engine supports [ECMA 5.1](http://www.ecma-international.org/ecma-262/5.1/) specification. Which mean, that majority of scripts will be processed during parsing or runtime of the document. We also provide you the ability to [specify JavaScript processing timeout](Environment%2BConfiguration.html#EnvironmentConfiguration-RuntimeService) or completely [disable scripts execution](Environment%2BConfiguration.html#EnvironmentConfiguration-Sandboxing).
+- CSS3 is supported out-of-the-box. Aspose.HTML provides an advanced CSS manipulation API and allows to manipulate stylesheets either for the [whole document](Environment%2BConfiguration.html#EnvironmentConfiguration-UserStyleSheet) or for the [particular node](Editing%2Ba%2BDocument.html#EditingaDocument-EditCSS). 
+- HTML Canvas is also supported by Aspose.HTML. You can draw on it, using [JavaScript](Edit%2BHTML5%2BCanvas%2BProgrammatically.html) or [HTML Canvas API](Edit%2BHTML5%2BCanvas%2BProgrammatically.html#EditHTML5CanvasProgrammatically-CanvasRenderingContext2D).
+- SVG parsing and rendering is based on the lates [SVG 2.0 documentation](https://www.w3.org/TR/SVG2/). Which allows you to use such modern elements as filters!
+## **Platform Independence**
+- You can use Aspose.HTML for .NET to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms, .NET Core etc. 
+- Aspose.HTML for .NET runs on both Windows and Linux operating systems.
+- Full support of all the .NET Framework versions starting from 2.0 and higher, including Client Profile versions.
+- Aspose.HTML provides you the .NET Standard 2.0 assembly, which can be used with frameworks that implement it, such as .NET Core 2.0.
+## **Helpful Extensions**
+- **Form Editor** -  is an utility class, which allows you to easily edit and submit HTML forms. You can find usage examples and detailed description on this [page](HTML%2BForm%2BEditor.html).
+- **Vendor Specific CSS** - Aspose.HTML provides you its own CSS properties, which extend existing ones. As an example they can be used to [add page numbers](CSS%2BExtensions.html).
