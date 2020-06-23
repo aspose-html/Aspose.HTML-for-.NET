@@ -26,6 +26,7 @@ script:
 - hugo --source $ROOT_DIR --minify
 - mkdir -p $SRC_DIR/search-json
 - mv $SRC_DIR/index.json $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json
+- ls -LR
 after_success:
 - scp -i ./deploy_key -r $SRC_DIR/$PRODUCT $USER@$HOST:$DEST_DIR
 - scp -i ./deploy_key -r $SRC_DIR/product-sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT-$PLATFORM.xml
