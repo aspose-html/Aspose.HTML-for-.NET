@@ -6,7 +6,7 @@ env:
   - PLATFORM=net
   - ROOT_DIR=Docs/docs-common
   - SRC_DIR=Docs/docs-common/public
-  - DEST_DIR=/var/www/docs.groupdocs.com/html
+  - DEST_DIR=/var/www/docs.aspose.com/html
   - secure: BvjBFgYlsaLrJTB3+wEJ7lT0AEcZ4vR1fKr4wiIKtTW0gM14CTkCgwtEz7Ep+T5BUvvlxDkJuxNFeu5zeWo5wQ7ki9iptapKH3V4G8W/9NR6A3N96doHMyuIoTlalO8H01GKqQhLuGM6a953nfwbwDr9m8Q2xzDq4Aktsmznu92VmhAD+F2sI5KljXS9Ba1+3vZapQactyVfSecCm4aGgWK8xK7drLdMdnoAMai3h9XkxJ1rBuyy9j/MrjUNtCplq0oJJgAmT8YkeSADnmHu4LEwBZ2KsOjAZ4r9WNOITFWlUVK11dWxXaqqRobMXOhVJnADrGd4+lpWSrJk9M7rceQjeJrNJxHkVGCDZ7+Q3REuJze6uUE1t0nLARIV3qRzQ3CrCKo6UcFW+C/ZA8f+ASXDezYOmYcCffuV9hiL9rYPrn4OkRYthGP9X0dk2kULlCAeRxKKuE471GW7zghXbQSqDuQb7Tog4/99OsvBayArUZ0LLz0LbwdMCoXFZviw1ltZJ5OrryLv2YKs3Gig5w/G5WDlmvYs4yHZp24+P5A9Cv7fnsetw/mZE3Hzk8SD1KVId6FWS5RECZHRUksaU/ceAgtMPZOKpXKXZBAa0texm5SRSzB49Ief7smSB25BP4RTA6GBhvuanF7oprOhX4IkfPZk9Ynno/gvNT8ZieY=
 before_install:
 - openssl aes-256-cbc -K $encrypted_c1f313eb5227_key -iv $encrypted_c1f313eb5227_iv
