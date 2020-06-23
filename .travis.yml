@@ -27,6 +27,6 @@ script:
 - mkdir -p $SRC_DIR/search-json
 - mv $SRC_DIR/index.json $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json
 after_success:
-- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT$PLATFORM $USER@$HOST:$DEST_DIR
+- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT$PLATFORM $USER@$HOST:$DEST_DIR/$PRODUCT
 - scp -i ./deploy_key -r $SRC_DIR/product-sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT-$PLATFORM.xml
 - scp -i ./deploy_key -r $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json $USER@$HOST:$DEST_DIR/search-json/$PRODUCT-$PLATFORM.json
