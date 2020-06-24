@@ -4,8 +4,8 @@ env:
   global:
   - PRODUCT=html
   - PLATFORM=net
-  - ROOT_DIR=Docs/docs-common
-  - SRC_DIR=Docs/docs-common/public
+  - ROOT_DIR=Docs
+  - SRC_DIR=Docs/public
   - DEST_DIR=/var/www/docs.aspose.com/html
   - secure: BvjBFgYlsaLrJTB3+wEJ7lT0AEcZ4vR1fKr4wiIKtTW0gM14CTkCgwtEz7Ep+T5BUvvlxDkJuxNFeu5zeWo5wQ7ki9iptapKH3V4G8W/9NR6A3N96doHMyuIoTlalO8H01GKqQhLuGM6a953nfwbwDr9m8Q2xzDq4Aktsmznu92VmhAD+F2sI5KljXS9Ba1+3vZapQactyVfSecCm4aGgWK8xK7drLdMdnoAMai3h9XkxJ1rBuyy9j/MrjUNtCplq0oJJgAmT8YkeSADnmHu4LEwBZ2KsOjAZ4r9WNOITFWlUVK11dWxXaqqRobMXOhVJnADrGd4+lpWSrJk9M7rceQjeJrNJxHkVGCDZ7+Q3REuJze6uUE1t0nLARIV3qRzQ3CrCKo6UcFW+C/ZA8f+ASXDezYOmYcCffuV9hiL9rYPrn4OkRYthGP9X0dk2kULlCAeRxKKuE471GW7zghXbQSqDuQb7Tog4/99OsvBayArUZ0LLz0LbwdMCoXFZviw1ltZJ5OrryLv2YKs3Gig5w/G5WDlmvYs4yHZp24+P5A9Cv7fnsetw/mZE3Hzk8SD1KVId6FWS5RECZHRUksaU/ceAgtMPZOKpXKXZBAa0texm5SRSzB49Ief7smSB25BP4RTA6GBhvuanF7oprOhX4IkfPZk9Ynno/gvNT8ZieY=
 before_install:
@@ -21,12 +21,14 @@ before_install:
 install:
 - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.67.1/hugo_extended_0.67.1_Linux-64bit.deb
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
+- sudo npm install -D --save autoprefixer
+- sudo npm install -D --save postcss-cli 
 script:
-- cp -r Docs/content/* $ROOT_DIR/content/
 - hugo --source $ROOT_DIR --minify
-- mkdir -p $SRC_DIR/search-json
-- mv $SRC_DIR/index.json $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json
+# - mkdir -p $SRC_DIR/search-json
+# - mv $SRC_DIR/index.json $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json
+- mv $SRC_DIR/sitemap.xml $SRC_DIR/$PRODUCT-$PLATFORM.xml
 after_success:
-- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT$PLATFORM $USER@$HOST:$DEST_DIR/$PRODUCT/$PRODUCT$PLATFORM
-- scp -i ./deploy_key -r $SRC_DIR/product-sitemap.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT-$PLATFORM.xml
-- scp -i ./deploy_key -r $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json $USER@$HOST:$DEST_DIR/search-json/$PRODUCT-$PLATFORM.json
+- scp -i ./deploy_key -r $SRC_DIR $USER@$HOST:$DEST_DIR/$PRODUCT
+- scp -i ./deploy_key -r $SRC_DIR/$PRODUCT-$PLATFORM.xml $USER@$HOST:$DEST_DIR/sitemaps/$PRODUCT-$PLATFORM.xml
+# - scp -i ./deploy_key -r $SRC_DIR/search-json/$PRODUCT-$PLATFORM.json $USER@$HOST:$DEST_DIR/search-json/$PRODUCT-$PLATFORM.json
