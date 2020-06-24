@@ -19,10 +19,10 @@ before_install:
 - echo -e "Host $HOST\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 - ssh-add ./deploy_key
 install:
-- curl -LO https://github.com/gohugoio/hugo/releases/download/v0.67.1/hugo_extended_0.67.1_Linux-64bit.deb
-- sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
+- curl -LO https://github.com/gohugoio/hugo/releases/download/v0.71.1/hugo_extended_0.71.1_Linux-64bit.deb
+- sudo dpkg -i hugo_extended_0.71.1_Linux-64bit.deb
 - npm install -D --save autoprefixer
-- npm install -D --save -g postcss-cli 
+- npm install -g postcss-cli 
 script:
 - hugo --source $ROOT_DIR --minify
 # - mkdir -p $SRC_DIR/search-json
