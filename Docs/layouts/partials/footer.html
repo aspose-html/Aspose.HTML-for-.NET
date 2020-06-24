@@ -1,0 +1,72 @@
+{{ $links := .Site.Params.links }}
+
+<footer class="footerbottom bg-dark row d-print-none">
+  <div class="footercol">
+    <div class="socialicon">
+        {{ with $links }}
+        {{ with index . "user"}}
+        {{ template "footer-links-social-block" . }}
+        {{ end }}
+        {{ end }}
+    </div>
+    <div class="bottomenuitems">
+      {{ with $links }}
+      {{ with index . "footer-info"}}
+      {{ template "footer-links-information-block" . }}
+      {{ end }}
+      {{ end }}
+    </div>
+    </div>
+    <div class="footer2bar">
+      <div class="footer2col">
+      <div class="footer2text">
+      <p>© <a href="http://www.aspose.company/">Aspose Pty Ltd</a> 2001-{{ now.Year }}. All Rights Reserved.</p>
+      </div>
+      <div class="footer2anchor">
+        {{ with $links }}
+        {{ with index . "footer-policy"}}
+        {{ template "footer-links-policy-block" . }}
+        {{ end }}
+        {{ end }}
+      </div>
+      </div>
+    </div>
+</footer>
+
+{{ define "footer-links-social-block" }}
+<ul>
+  {{ range . }}
+  <li>
+    <a class="fb" title="{{ .name }}" href="{{ .url }}">
+      <i class="{{ .icon }}"></i>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ define "footer-links-information-block" }}
+<ul>
+  {{ $len := (len .) }}
+  {{ range $index, $element := . }}
+  <li>
+    <a href="{{ .url }}">{{ .name }}</a>
+  </li>
+    {{ if not (eq (add $index 1) $len) }}
+    <li class="sep1">|</li>
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ define "footer-links-policy-block" }}
+<span class="footer2bottom">
+  {{ $len := (len .) }}
+  {{ range $index, $element := . }}
+  <a href="{{ .url }}">{{ .name }}</a> 
+  {{ if not (eq (add $index 1) $len) }}
+  <span class="sep1">|</span> 
+  {{ end }}
+  {{ end }}
+</span>
+{{ end }}

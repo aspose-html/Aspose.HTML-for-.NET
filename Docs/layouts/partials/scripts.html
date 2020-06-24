@@ -1,0 +1,17 @@
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.3.5/split.min.js"></script>
+
+{{ $jsAnchor := resources.Get "js/anchor.js" | minify }}
+{{ $jsSearch := resources.Get "js/search.js" | resources.ExecuteAsTemplate "js/search.js" .Site.Home | minify}}
+{{ $collapsableMenuItems := resources.Get "js/collapsableMenuItems.js" | minify }}
+{{ $resizeLeftsideMenu := resources.Get "js/resize-left-side-menu.js" | minify  }}
+{{ $js := (slice $jsAnchor $jsSearch $collapsableMenuItems $resizeLeftsideMenu) | resources.Concat "js/main.js" | minify }}
+{{ if .Site.IsServer }}
+<script src="{{ $js.RelPermalink }}"></script>
+{{ else }}
+{{ $js := $js | minify | fingerprint }}
+<script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous"></script>
+{{ end }}
+{{ partial "hooks/body-end.html" . }}

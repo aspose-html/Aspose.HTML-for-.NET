@@ -1,0 +1,17 @@
+.gutter {
+      padding: 0.01rem;
+      min-width: 4px;
+      cursor: ew-resize;
+      position: absolute;
+      height: 100%;
+      z-index: 100;
+}
+
+.leftSideBarSize {
+  max-width: 31.9%;
+  min-width: 16%;
+}
+
+.rightSideContent {
+  min-width: 67.6%
+}

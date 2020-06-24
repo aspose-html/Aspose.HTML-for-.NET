@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}" class="no-js">
+  <head>
+    {{ partialCached "head.html" . }}
+  </head>
+  <body class="td-{{ .Kind }}">
+    <header>
+      {{ partialCached "topheader.html" . }}
+      {{ partialCached "navbar.html" . }}
+    </header>
+    <div class="container-fluid td-default td-outer">
+      <main role="main" class="td-main">
+        {{ block "main" . }}{{ end }}
+      </main>
+      {{ partialCached "footer.html" . }}
+    </div>
+    {{ partialCached "scripts.html" . }}
+  </body>
+</html>
