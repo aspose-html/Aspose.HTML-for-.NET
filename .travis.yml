@@ -23,7 +23,6 @@ install:
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
 - npm install -D --save autoprefixer
 - npm install -D --save -g postcss-cli 
-- npm audit fix
 script:
 - hugo --source $ROOT_DIR --minify
 # - mkdir -p $SRC_DIR/search-json
