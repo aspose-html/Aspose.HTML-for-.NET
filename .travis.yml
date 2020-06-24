@@ -21,8 +21,8 @@ before_install:
 install:
 - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.67.1/hugo_extended_0.67.1_Linux-64bit.deb
 - sudo dpkg -i hugo_extended_0.67.1_Linux-64bit.deb
-- sudo npm install -D --save autoprefixer
-- sudo npm install -D --save postcss-cli 
+# - sudo npm install -D --save autoprefixer
+# - sudo npm install -D --save postcss-cli 
 script:
 - hugo --source $ROOT_DIR --minify
 # - mkdir -p $SRC_DIR/search-json
