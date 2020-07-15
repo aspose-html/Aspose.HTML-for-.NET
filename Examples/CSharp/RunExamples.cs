@@ -102,6 +102,8 @@ namespace Aspose.Html.Examples.CSharp
             //ConvertHTMLToMHTML.SpecifyMHTMLSaveOptions();
             #endregion
 
+            HTMLtoDOCandDOCX.Run();
+
             #region ConvertSVGToImage
             //ConvertSVGToImage.WithASingleLine();
             //ConvertSVGToImage.ConvertSVGToJPG();
