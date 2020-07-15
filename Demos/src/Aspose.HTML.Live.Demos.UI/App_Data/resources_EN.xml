@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <res name="ApplicationTitle">Aspose.HTML Live Demos</res>
+  <res name="ApplicationTitle2">Free App Solutions for HTML files nanipulation </res>
+
+	<res name="Viewerh4">Viewer</res>
+	<res name="btnViewNow">VIEW NOW</res>
+	<res name="ViewerAction">View</res>
+  <res name="HomePageTitle">Home</res>
+  <res name="DownloadFileLinkTitle">Download your file</res>
+	<res name="NoSearchResultsMessage">No search results</res>
+  <res name="FileConvertedSuccessMessage">Your file has been converted successfully, please download converted file</res>
+  <res name="InvalidFileExtension">Invalid file, please upload a file with extension</res>
+  <res name="InvalidFile">Invalid file, please ensure that uploading correct file</res>
+	<res name="FileAmountMessageOne">Please select only one file</res>
+	<res name="FileAmountMessageLessTen">Please select less than ten files</res>
+  <res name="btnConvertNow">CONVERT NOW</res>
+	<res name="AsposeHTML">Aspose.HTML</res>
+	<res name="AsposeHtml">Aspose.HTML</res>
+  <res name="PageNotFound">404 Page not found</res>
+  <res name="BrokenLinkTitle">The link you followed probably broken or the page has been moved</res>
+  <res name="btnBackHome">Back to Home</res>
+	<res name="FileSelectMessage">Please select a file to convert</res>
+  <res name="SaveAs">Save as</res>
+	<res name="MergerFileAmountMessage">Please select between two and ten files</res>
+	<res name="htmlConversionSaveAsOptions">PDF,XPS,JPG,PNG,BMP,TIFF,GIF,MHTML,MD</res>
+	<res name="htmlMergerSaveAsOptions">PDF,MHTML,XPS,TIFF</res>
+  <res name="DropOrUploadFile">Drop or upload your file</res>
+  <res name="DropOrUploadFiles">Drop or upload your files</res>
+	<res name="htmlValidationExpression">.html|.xhtml|.mhtml|.zip|.epub|.svg</res>
+  <res name="FileConvertedSuccessMessage1">Your file has been converted successfully</res>
+  <res name="DownLoadNow">DOWNLOAD NOW</res>
+  <res name="FileWrongTypeMessage">You are trying to upload document(s) of unsupported type: </res>
+	<res name="htmlConversionPageTitle">Convert HTML Online</res>
+	<res name="htmlConversionMetaDescription">Free Online HTML to PDF, XPS, JPG, JPEG, PNG, BMP, TIFF, GIF or MHTML Converter</res>
+	<res name="htmlConversionTitle">Free HTML Online Converter</res>
+	<res name="htmlConversionSubTitle">High Quality Online HTML Converter which works on any Platform for Free.</res>
+	<!-- Conversion App - How To-->
+	<res name="HowtoConversionTitle">How to convert {0} file using {1}</res>
+	<res name="HowtoConversionFeature1">Click inside the file drop area to upload file or drag &amp; drop file.</res>
+	<res name="HowtoConversionFeature2">Your file will be uploaded and will be converted to required format.</res>
+	<res name="HowtoConversionFeature3">Download link of converted file will be available instantly after conversion.</res>
+	<res name="WrongRegExpMessage">Wrong regular expression</res>
+  <res name="ConvertAnotherFile">Convert another file</res>
+  
+	<res name="AsposeProductFor"></res>
+
+ 
+  <res name="Feature1">Fast and Easy Conversion</res>
+  <res name="Feature1Description">Upload your document, choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+  <res name="Feature1TasksDescription">Upload your project (or select online), choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+  <res name="Feature2">Convert from Anywhere</res>
+  <res name="Feature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+  <res name="Feature3">Conversion Quality</res>
+  <res name="Feature3Description">. All files are processed using Aspose APIs, which are being used by many Fortune 100 companies across 114 countries</res>
+	
+  <res name="PoweredBy">Powered by</res>
+  <res name="Conversionh4">Conversion</res>
+  
+  <res name="SaveAsDescription">Save as: {0}</res>
+  <res name="ConversionCategory">conversion</res>
+  <res name="AsposeProductFamilyInclude">{0} Product Family Includes</res>
+
+	<res name="ConversionFeature1">Fast and Easy Conversion</res>
+	<res name="ConversionFeature1Description">Upload your document, choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+	
+	<res name="ConversionFeature2">Convert from Anywhere</res>
+	<res name="ConversionFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+	<res name="ConversionFeature3">Conversion Quality</res>
+	<res name="ConversionButton">CONVERT</res>
+	<res name="ConversionAnotherFile">Convert other documents</res>
+	<res name="ConversionSuccessMessage">Your files have been processed successfully</res>	
+	<res name="ConversionAction">Convert</res>
+	<res name="htmlMarkDownValidationExpression">.md|.txt</res>
+	<res name="htmlMarkDownSaveAsOptions">HTML</res>
+
+	<res name="htmlMarkDownPageTitle">Convert Markdown to HTML page</res>
+	<res name="htmlMarkDownMetaDescription">Convert your markdown to HTML in one easy step - for free!</res>
+	<res name="htmlMarkDownTitle">Convert Markdown to HTML document</res>
+	<res name="htmlMarkDownSubTitle">Just upload your MD or TXT document, select the output format and hit the button. That is it!</res>
+
+	<res name="MarkDownFeature1">Fast and Easy Conversion</res>
+	<res name="MarkDownFeature1Description">Upload your document, choose the save format type and click on “Convert” button. You will get the download link as soon as the file is converted</res>
+
+	<res name="MarkDownFeature2">Convert from Anywhere</res>
+	<res name="MarkDownFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+	<res name="MarkDownFeature3">Conversion Quality</res>
+	<res name="MarkDownButton">CONVERT</res>
+	<res name="MarkDownAnotherFile">Convert other documents</res>
+	<res name="MarkDownSuccessMessage">Your files have been processed successfully</res>
+	<res name="MarkDownAction">Convert</res>
+
+	<res name="HowtoMarkDownTitle">How to convert {0} file using {1}</res>
+	<res name="HowtoMarkDownFeature1">Click inside the file drop area to upload file or drag &amp; drop file.</res>
+	<res name="HowtoMarkDownFeature2">Your file will be uploaded and will be converted to required format.</res>
+	<res name="HowtoMarkDownFeature3">Download link of converted file will be available instantly after conversion.</res>
+
+	<res name="MarkDownCategory">MarkDown</res>
+
+
+	<res name="htmlMergerPageTitle">Merge HTML Online</res>
+	<res name="htmlMergerMetaDescription">Free Online HTML Merger to a single PDF, MHTML or XPS file.</res>
+	<res name="htmlMergerTitle">Free Online HTML Merger</res>
+	<res name="htmlMergerSubTitle">High Quality Online HTML Merger which works on any Platform for Free.</res>
+
+	<res name="htmlMergerLiFeature1">Combine different files into one</res>
+
+	<res name="htmlMergerLiFeature2">Choose the order of merged files</res>
+
+	<!-- Conversion App - How To-->
+	<res name="HowtoMergerTitle">How to merge {0} files using {1}</res>
+	<res name="HowtoMergerFeature1">Click inside the file drop area to upload files or drag &amp; drop files.</res>
+	<res name="HowtoMergerFeature2">Click the "MERGE NOW" button to start merging files.</res>
+	<res name="HowtoMergerFeature3">Download link of merged file will be available instantly after merger.</res>
+
+	<res name="MergerButton">MERGE NOW</res>
+
+	<res name="MergerFeature1">Fast and Easy Way to Merge</res>
+	<res name="MergerFeature1Description">Upload your documents and click on “MERGE NOW” button. It will merge your document files into one and provide you a download link to download merged document. The output format will be the output format of your first document</res>
+	<res name="MergerFeature2">Merge from Anywhere</res>
+	<res name="MergerFeature2Description">It works from all platforms including Windows, Mac, Android and iOS. All files are processed on our servers. No plugin or software installation required for you</res>
+	<res name="MergerFeature3">Merge Quality</res>
+
+	<res name="MergerAnotherFile">Merge other documents</res>
+	<res name="MergerSuccessMessage">Your files have been processed successfully</res>
+
+</resources>
+
+
+

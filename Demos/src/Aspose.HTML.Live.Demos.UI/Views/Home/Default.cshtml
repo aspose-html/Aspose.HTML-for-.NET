@@ -1,0 +1,57 @@
+﻿
+@model  LandingPageModel
+
+@{
+	Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid header1 header2 minify-header appfamily-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>Hyper Text Markup Language Solution</h1>
+				<h4>A set of advanced manipulation APIs & cross-platform apps for HTML, XHTML, MHTML formats.</h4>
+			</div>
+			<div class="col-md-4 tc">
+				<img class=" col-xs-12" src="../img/aspose_html-brand.png" alt="Aspose.Page" width="320" />
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container-fluid productfamilypage bg-white pdb-5">
+	<div class="row">
+		<div class="container tc">
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+			<h3>@string.Format(@Model.Resources["AsposeProductFamilyInclude"], @Model.Resources["AsposeHTML"])  </h3>
+			<div class="clearfix">&nbsp;</div>
+			<div class="clearfix">&nbsp;</div>
+			
+			<div class="col-lg-4 productfamily_box">
+				<div class="productfamilytitle">
+					<div class="imgblock">
+						<img src="../img/aspose_conversion-app.png" alt="Aspose.HTML for .NET" />
+					</div>
+					<a href="/html/conversion"><span class="spanclass">@Model.Resources["AsposeHTML"] @Model.Resources["AsposeProductFor"]  <em>Conversion</em></span><em>Easily convert HTML files to PDF, Markdown, MHTML and many other popular file formats without leaving your favorite browser.</em></a>
+				</div>
+			</div>
+			<div class="col-lg-4 productfamily_box">
+				<div class="productfamilytitle">
+					<div class="imgblock">
+						<img src="../img/aspose_conversion-app.png" alt="Aspose.HTML for .NET" />
+					</div>
+					<a href="/html/markdown"><span class="spanclass">@Model.Resources["AsposeHTML"] @Model.Resources["AsposeProductFor"]  <em>MarkDown</em></span><em>Convert MD to HTML.</em></a>
+				</div>
+			</div>
+			<div class="col-lg-4 productfamily_box">
+				<div class="productfamilytitle">
+					<div class="imgblock">
+						<img src="../img/aspose_merger-app.png" alt="Aspose.HTML for .NET" />
+					</div>
+					<a href="/html/merger"><span class="spanclass">@Model.Resources["AsposeHTML"] @Model.Resources["AsposeProductFor"]<em>Merger</em></span><em>Free app offering features to Merge multiple HTML, EPUB and SVG files.</em></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+<div class="spacer">&nbsp;</div>
