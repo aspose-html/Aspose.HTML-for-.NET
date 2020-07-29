@@ -26,6 +26,5 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd ${{ secrets.PROJECTPATH }}
-          cp -R $GITHUB_WORKSPACE ${{ secrets.PROJECTPATH }}/testgit
-          pwd
+          cp -R $GITHUB_WORKSPACE/Aspose.HTML-for-.NET ${{ secrets.PROJECTPATH }}
           ls -l
