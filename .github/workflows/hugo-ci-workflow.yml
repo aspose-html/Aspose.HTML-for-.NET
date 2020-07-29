@@ -26,5 +26,6 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd ${{ secrets.PROJECTPATH }}
-          cp -R $GITHUB_WORKSPACE .
+          cp -R $GITHUB_WORKSPACE ${{ secrets.PROJECTPATH }}
+          pwd
           ls -l
