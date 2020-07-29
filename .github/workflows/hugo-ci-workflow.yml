@@ -11,6 +11,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Clone repository
+      uses: actions/checkout@v2
+      with:
+        repository: aspose-html/Aspose.HTML-for-.NET
+        ref: develop
+        path: html-for-net
     - name: build Hugo public site
       uses: appleboy/ssh-action@master
       with:
@@ -20,10 +26,5 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd ${{ secrets.PROJECTPATH }}
-          df -h
-    - name: Clone repository
-      uses: actions/checkout@v2
-      with:
-        repository: aspose-html/Aspose.HTML-for-.NET
-        ref: develop
-        path: html-for-net
+          cp -R $GITHUB_WORKSPACE .
+          ls -l
