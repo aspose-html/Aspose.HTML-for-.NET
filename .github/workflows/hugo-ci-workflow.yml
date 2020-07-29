@@ -20,5 +20,9 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd ${{ secrets.PROJECTPATH }}
-          ls -l
           df -h
+      uses: actions/checkout@v2
+      with:
+        repository: aspose-html/Aspose.HTML-for-.NET
+        ref: develop
+        path: html-for-net
