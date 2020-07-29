@@ -21,3 +21,4 @@ jobs:
         script: |
           cd ${{ secrets.PROJECTPATH }}
           ls -l
+          df -h
