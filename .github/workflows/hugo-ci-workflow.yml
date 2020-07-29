@@ -20,4 +20,4 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd ${{ secrets.PROJECTPATH }}
-          df -h
+          ls -l
