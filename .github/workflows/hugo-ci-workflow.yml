@@ -17,5 +17,7 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           cd Aspose.HTML-for-.NET
+          echo "pulling repositiry"
           git pull origin develop
-          git status
+          echo "list files and directories"
+          ls -l
