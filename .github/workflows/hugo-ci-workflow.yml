@@ -18,7 +18,7 @@ jobs:
         path: html-for-net
     - run: |
         pwd
-        ls -l
+        docker ps
     # - name: build Hugo public site
     #   uses: appleboy/ssh-action@master
     #   with:
