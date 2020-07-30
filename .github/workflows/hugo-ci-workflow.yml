@@ -8,10 +8,6 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Print environment variables
-    - uses: FranzDiebold/github-env-vars-action@v1.2.0
-      env:
-        REPOSITORY_NAME: $GITHUB_REPOSITORY_NAME
     - name: build Hugo public site
       uses: appleboy/ssh-action@master
       with:
@@ -21,4 +17,5 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           git clone ${{ github.repository }}
-          cd ${{ REPOSITORY_NAME }}
+          cd Aspose.HTML-for-.NET
+          ls -l
