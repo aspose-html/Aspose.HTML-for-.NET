@@ -16,7 +16,7 @@ jobs:
       with:
         ref: develop
         path: html-for-net
-      run: |
+    - run: |
         pwd
         ls -l
     # - name: build Hugo public site
