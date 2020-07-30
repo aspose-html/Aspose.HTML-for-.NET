@@ -16,4 +16,7 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         port: ${{ secrets.SSHPORT }}
         script: |
+          ls -l
+          cd workspace
+          ls -l
           pwd
