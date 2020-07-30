@@ -5,6 +5,8 @@ on:
 
 jobs:
   job-one:
+    - run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
+      shell: bash
     name: Deploy
     runs-on: ubuntu-latest
     steps:
@@ -16,8 +18,5 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         port: ${{ secrets.SSHPORT }}
         script: |
-          cd Aspose.HTML-for-.NET
-          echo "pulling repositiry"
-          git pull origin develop
-          echo "list files and directories"
-          ls -l
+          git clone ${{ github.repository }}
+          cd ${{ REPOSITORY_NAME }}
