@@ -16,17 +16,17 @@ jobs:
       with:
         ref: develop
         path: html-for-net
-    - run: |
+    - name: build Hugo public site
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSHKEY }}
+        port: ${{ secrets.SSHPORT }}
+        script: |
+          cd ${{ secrets.PROJECTPATH }}
+          ls -l
+    - name: docker check
+      run: |
         pwd
         docker ps
-    # - name: build Hugo public site
-    #   uses: appleboy/ssh-action@master
-    #   with:
-    #     host: ${{ secrets.HOST }}
-    #     username: ${{ secrets.USERNAME }}
-    #     key: ${{ secrets.SSHKEY }}
-    #     port: ${{ secrets.SSHPORT }}
-    #     script: |
-    #       cd ${{ secrets.PROJECTPATH }}
-    #       cp -R $GITHUB_WORKSPACE/Aspose.HTML-for-.NET ${{ secrets.PROJECTPATH }}
-    #       ls -l
