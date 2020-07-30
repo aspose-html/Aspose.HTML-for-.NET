@@ -8,7 +8,10 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
+    - uses: FranzDiebold/github-env-vars-action@v1.2.0
+    - name: Print environment variables
+      env:
+        REPOSITORY_NAME: $GITHUB_REPOSITORY_NAME
     - name: build Hugo public site
       uses: appleboy/ssh-action@master
       with:
