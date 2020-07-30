@@ -11,11 +11,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Clone repository
-      uses: actions/checkout@v2
-      with:
-        ref: develop
-        path: html-for-net
     - name: build Hugo public site
       uses: appleboy/ssh-action@master
       with:
@@ -24,9 +19,7 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         port: ${{ secrets.SSHPORT }}
         script: |
-          cd ${{ secrets.PROJECTPATH }}
+          cd Aspose.HTML-for-.NET
+          git pull origin develop
+          git status
           ls -l
-    - name: docker check
-      run: |
-        pwd
-        docker ps
