@@ -5,11 +5,10 @@ on:
 
 jobs:
   job-one:
-    - run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
-      shell: bash
     name: Deploy
     runs-on: ubuntu-latest
     steps:
+    - run: echo ::set-env name=REPOSITORY_NAME::$(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | sed -e "s/:refs//")
     - name: build Hugo public site
       uses: appleboy/ssh-action@master
       with:
