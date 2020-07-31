@@ -18,6 +18,6 @@ jobs:
         key: ${{ secrets.SSHKEY }}
         port: ${{ secrets.SSHPORT }}
         script: |
-          git clone https://github.com/aspose-html/Aspose.HTML-for-.NET.git
-          cd Aspose.HTML-for-.NET
+          git clone --single-branch --branch develop https://github.com/aspose-html/Aspose.HTML-for-.NET.git
+          cp -R Aspose.HTML-for-.NET/Docs/* html-hugo/content/
           ls -l
