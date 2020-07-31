@@ -2,6 +2,8 @@ name: Hugo-CI
 on:
   push:
     branches: [ develop ]
+    paths:
+      - 'Docs/**'
 
 jobs:
   job-one:
