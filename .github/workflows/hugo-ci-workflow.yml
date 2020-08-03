@@ -22,4 +22,4 @@ jobs:
           cp -R Aspose.HTML-for-.NET/Docs/NET/* aspose-prototype/content/net
           cd aspose-prototype
           hugo --baseURL https://docs.aspose.com/html
-          sudo cp -R aspose-prototype/public/net/* ../net-23
+          sudo cp -R public/net/* ../net-23
