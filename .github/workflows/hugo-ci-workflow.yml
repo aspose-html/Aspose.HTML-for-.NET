@@ -23,3 +23,4 @@ jobs:
           cd aspose-prototype
           hugo --baseURL https://docs.aspose.com/html
           sudo cp -R public/net/* /var/www/docs.aspose.com/html/html/net
+          sudo nginx -s reload
