@@ -21,5 +21,5 @@ jobs:
           git clone --single-branch --branch develop https://github.com/aspose-html/Aspose.HTML-for-.NET.git || (cd Aspose.HTML-for-.NET; git pull)
           cp -R Aspose.HTML-for-.NET/Docs/NET/* aspose-prototype/content/net
           hugo --source aspose-prototype --baseURL https://docs.aspose.com/html
-          echo "Making sudo dir"
-          sudo mkdir SudoDir
+          sudo cp -R aspose-prototype/public/net/* /var/www/docs.aspose.com/html/html/net
+          sudo nginx -s reload
