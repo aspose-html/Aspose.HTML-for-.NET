@@ -19,8 +19,8 @@ jobs:
         port: ${{ secrets.SSHPORT }}
         script: |
           git clone --single-branch --branch master https://github.com/aspose-html/Aspose.HTML-for-.NET.git || (cd Aspose.HTML-for-.NET; git pull)
-          cp -R Aspose.HTML-for-.NET/Docs/* lutsk-aspose-prototype/content/net
-          cd lutsk-aspose-prototype
+          cp -R Aspose.HTML-for-.NET/Docs/* aspose-prototype/content/net
+          cd aspose-prototype
           hugo --baseURL https://docs.aspose.com/html
           sudo cp -R public/net/* ${{ secrets.PROJECTPATH }}
           sudo nginx -s reload

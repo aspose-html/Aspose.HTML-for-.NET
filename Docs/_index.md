@@ -9,7 +9,7 @@ url: /net/
 
 ![Aspose.HTML for .NET Product Logo](home_1.png)
 
-**Welcome to the Aspose.HTML for .NET documentation_test1**
+**Welcome to the Aspose.HTML for .NET documentation_test**
 
 Aspose.HTML for .NET is a cross-platform class library that enables your applications to perform a wide range of HTML manipulation tasks. Since HTML is generally used in combination with other technologies, Aspose.HTML supports not only HTML5 but CSS3, SVG, and HTML Canvas specifications as well. Using Aspose.HTML, you can load web pages, analyze and edit the content, save and convert pages to-and-from the following formats: (X)HTML, MHTML, SVG, Markdown, PDF, XPS, EPUB, PNG, TIFF, JPEG, BMP, and other formats.
 
