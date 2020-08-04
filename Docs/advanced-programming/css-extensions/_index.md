@@ -16,8 +16,8 @@ The prefix that is used by Aspose.HTML library looks like **-aspose-** and giv
 
 |**Name**|**Description**|
 | :-: | :-: |
-|` `currentPageNumber |` `This function returns the number of the current rendering page.|
-|` `totalPagesNumber |` `This function returns the number of the total pages in the document.|
+|currentPageNumber |This function returns the number of the current rendering page.|
+|totalPagesNumber |This function returns the number of the total pages in the document.|
 The next code snippet demonstrates how to use CSS extensions to create custom marks on document margins: 
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-AdvancedUsage-CSSExtensions-AddTitleAndPageNumber.cs" >}}
