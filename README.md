@@ -38,7 +38,7 @@ The classes and properties of Aspose.HTML for .NET API have similar names as tha
 
 ## Read & Write Web Formats
 
-**Web:** HTML, XHTML, MHTML
+**Web:** HTML, XHTML, MHTML.
 
 ## Save HTML As
 

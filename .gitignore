@@ -24,3 +24,4 @@ test-results/
 packages/
 packages
 .vs/
+.DS_Store
