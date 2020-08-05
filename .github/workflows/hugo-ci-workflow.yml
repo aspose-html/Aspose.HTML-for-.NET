@@ -2,16 +2,13 @@ name: Hugo-CI
 on:
   push:
     branches: [ develop ]
+    paths:
+      - 'Docs/**'
 
 jobs:
   job-one:
     name: Deploy
-    runs-on: ubuntu-latest
-    steps:
-    - name: hugo build
-      run: |
-        pwd
-        wget https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.deb
-        sudo dpkg -i hugo_extended_0.74.3_Linux-64bit.deb
-        hugo version
-        git clone ${{ secrets.PROTOTYPE }}
+    runs-on: [self-hosted, linux, x64, dev4-github]
+    steps: |
+      ls -l
+      pwd
