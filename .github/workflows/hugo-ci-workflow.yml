@@ -9,6 +9,8 @@ jobs:
   job-one:
     name: Deploy
     runs-on: [self-hosted, linux, x64, dev4-github]
-    steps: |
-      ls -l
-      pwd
+    steps:
+      - name: hugo build
+        run: |
+          ls -l
+          pwd
