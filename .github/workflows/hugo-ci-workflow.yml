@@ -1,26 +1,14 @@
 name: Hugo-CI
 on:
   push:
-    branches: [ master ]
-    paths:
-      - 'Docs/**'
+    branches: [ develop ]
 
 jobs:
   job-one:
     name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: build Hugo public site
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSHKEY }}
-        port: ${{ secrets.SSHPORT }}
-        script: |
-          git clone --single-branch --branch master https://github.com/aspose-html/Aspose.HTML-for-.NET.git || (cd Aspose.HTML-for-.NET; git pull)
-          cp -R Aspose.HTML-for-.NET/Docs/* lutsk-aspose-prototype/content/net
-          cd lutsk-aspose-prototype
-          hugo --baseURL https://docs.aspose.com/html
-          sudo cp -R public/net/* ${{ secrets.PROJECTPATH }}
-          sudo nginx -s reload
+    - name: hugo build
+      run: |
+        ls -l
+        pwd
