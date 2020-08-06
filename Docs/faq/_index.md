@@ -18,7 +18,7 @@ Q: How to convert HTML document to PDF?
 
 {{< /highlight >}}
 
-For more examples, please visit [Converting Between Formats](/html/net/converting-between-formats-html/) guides.
+For more examples, please visit [Converting Between Formats](/html/net/converting-between-formats/) guides.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -26,7 +26,7 @@ Q: What formats does Aspose.HTML support?
 
 **Answer:** 
 
-Out-of-the-box we support (X)HTML, SVG, EPub, MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/net/features-list-html/) page.
+Out-of-the-box we support (X)HTML, SVG, EPub, MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/net/features-list/) page.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -34,7 +34,7 @@ Q: Can I use HTMLDocument to load EPub file format?
 
 **Answer:** 
 
-In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/net/creating-a-document-html/) guide. The HTMLDocument class is designed only to work with HTML files.
+In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/net/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -68,7 +68,7 @@ Q: Is it possible to disable JavaScript for a Document?
 
 **Answer:** 
 
-Yes. You should use [**sandboxing flags**](/html/net/environment-configuration-html/)* *to disable potentially untrusted resources.
+Yes. You should use [**sandboxing flags**](/html/net/environment-configuration/)* *to disable potentially untrusted resources.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -76,7 +76,7 @@ Q: How to use the MemoryStream object to store the rendering result instead of t
 
 **Answer:** 
 
-You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/net/output-streams-html/).
+You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/net/output-streams/).
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -84,7 +84,7 @@ Q: How to check the list of resources that are loaded along with an HTML documen
 
 **Answer:** 
 
-We have a specialized [Network Service](/html/net/environment-configuration-html/) that gives you full control over the all request/response messages. You can use it to trace the requests, create a custom cache, substitute the content of response messages and much more.
+We have a specialized [Network Service](/html/net/environment-configuration/) that gives you full control over the all request/response messages. You can use it to trace the requests, create a custom cache, substitute the content of response messages and much more.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -92,7 +92,7 @@ Q: How to override the document style?
 
 **Answer:** 
 
-There is a ‘[User Style Sheet](/html/net/environment-configuration-html/)’ property that can be useful exactly for this purpose.
+There is a ‘[User Style Sheet](/html/net/environment-configuration/)’ property that can be useful exactly for this purpose.
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -100,7 +100,7 @@ Q: My document does not parse properly, I see black-squares instead of letters! 
 
 **Answer:** 
 
-We parse a document headers to detect the character-set (encoding) of the document. If the encoding is not defined we use UTF-8, which is defined as a default for HTML5 specification. If you know that encoding is different from the default UTF-8, please specify it directly as it described [here](/html/net/environment-configuration-html/).
+We parse a document headers to detect the character-set (encoding) of the document. If the encoding is not defined we use UTF-8, which is defined as a default for HTML5 specification. If you know that encoding is different from the default UTF-8, please specify it directly as it described [here](/html/net/environment-configuration/).
 
 ![todo:image_alt_text](faq_1.png)
 
@@ -108,4 +108,4 @@ Q: I want to see page numbers at the bottom of the document, how to do this?
 
 **Answer:** 
 
-Since CSS is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/net/css-extensions-html/) that can be used to write information on page margins.
+Since CSS is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/net/css-extensions/) that can be used to write information on page margins.

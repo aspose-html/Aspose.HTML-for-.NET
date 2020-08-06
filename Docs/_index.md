@@ -19,14 +19,15 @@ Aspose.HTML for .NET is a cross-platform class library that enables your applica
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Getting Started](/html/net/getting-started-html/)
-- [Supported Features](/html/net/features-list-html/)
+- [Getting Started](/html/net/getting-started/)
+- [Supported Features](/html/net/features-list/)
 - [Product Page](https://products.aspose.com/html/net)
-- [](https://www.nuget.org/packages/Aspose.Html/)[I](https://www.nuget.org/packages/Aspose.Html/)[nstalling Product](/html/net/installation-html/)
+- [NuGet Package](https://www.nuget.org/packages/Aspose.Html/)
+- [Installing Product](/html/net/installation/)
 - [API Reference](https://apireference.aspose.com/html/net)
 - [Free Support Forum](https://forum.aspose.com/c/html)
 - [Paid Support Helpdesk](https://helpdesk.aspose.com/)
 - [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-.NET)
 - [Try Online](https://products.aspose.app/html/family)
-- [Release Notes](/html/net/release-notes-html/)
-- [FAQ](/html/net/faq-html/)
+- [Release Notes](/html/net/release-notes/)
+- [FAQ](/html/net/faq/)

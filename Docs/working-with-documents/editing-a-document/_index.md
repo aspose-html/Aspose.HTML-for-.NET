@@ -5,7 +5,7 @@ weight: 30
 url: /net/editing-a-document/
 ---
 
-As we already mentioned [here](/html/net/creating-a-document-html/) the implementation of [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of [HTML](https://en.wikipedia.org/wiki/HTML) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) languages.
+As we already mentioned [here](/html/net/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of [HTML](https://en.wikipedia.org/wiki/HTML) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) languages.
 The [DOM namespace](https://apireference.aspose.com/net/html/aspose.html.dom/) is represented with the following fundamental data types:
 
 |**Data type** |` `**Description**|

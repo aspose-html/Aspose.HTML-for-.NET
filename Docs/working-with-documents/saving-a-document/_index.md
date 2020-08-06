@@ -40,7 +40,7 @@ As well as for [*HTML to File*](/html/net/saving-a-document/#savingadocument-ht
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WorkingWithDocuments-SavingADocument-HTMLToMarkdown.cs" >}}
 
-For the more information how to use Markdown Converter, please visit [HTML to Markdown](/html/net/html-to-markdown-conversion-html/) article.
+For the more information how to use Markdown Converter, please visit [HTML to Markdown](/html/net/html-to-markdown-conversion/) article.
 ## **Save SVG**
 Usually, you could see the [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) document as a part of HTML file, it is used to represent the vector data on the page: images, icons, tables, etc. However, SVG also could be extracted from the web page and you can manipulate it in a similar way as the HTML document.
 

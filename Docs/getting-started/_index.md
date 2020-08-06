@@ -18,7 +18,7 @@ Aspose.HTML for .NET is designed to process not only HTML but all the related fo
 
 - Document object model - created according to the official HTML documentation, which allows you to edit, create and remove nodes.
 - XPath queries, CSS Selectors and Traversal interfaces - which can be used to navigate through nodes and collect data.
-- Many accurate, high-performance converters. You can visit [Features List](/html/net/features-list-html/) or [Converting](/html/net/converting-between-formats-html/) articles to see the full list of supported file formats.
+- Many accurate, high-performance converters. You can visit [Features List](/html/net/features-list/) or [Converting](/html/net/converting-between-formats/) articles to see the full list of supported file formats.
 - Work with CSS, JavaScript and other built-in formats.
 
 You can learn more about all these and other features in [Features List](/html/net/features-list/) article.
