@@ -11,7 +11,7 @@ This page contains release notes information for Aspose.HTML for .NET 19.11.
 
 {{% /alert %}} 
 ## **Improvements and Changes**
-` `As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the November release of Aspose.HTML for .NET. In this release, we have made some improvements related to rendering quality. These improvements include:
+As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the November release of Aspose.HTML for .NET. In this release, we have made some improvements related to rendering quality. These improvements include:
 
 - Addition of scripts support to template merging, which allows creating interactive documents
 - Increased quality of MHTML rendering by implementing processing of resources referenced by content ID

@@ -47,7 +47,7 @@ CSS media-type is an important feature that specifies how a document is to be pr
 
 {{< /highlight >}}
 
-` `or, via inlining:
+or, via inlining:
 
 **Inline Style Sheet**
 

@@ -18,7 +18,7 @@ The [SaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/s
 |[UrlRestriction](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/urlrestriction)|Applies restrictions to the host or folders where resources are located.|
 |[MaxHandlingDepth](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth)|If you need to save not the only specified HTML document, but also the linked HTML pages, this option gives you the ability to control the depth of the linked pages that should be saved.|
 |[JavaScript](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/javascript)|This option specifies how do we need to treat the JavaScript files: it could be saved as a separated linked file, embed into HTML file or even be ignored.|
-|[Default](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/default)|` `This options specifies behavior for other than JavaScript files. |
+|[Default](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/default)|This options specifies behavior for other than JavaScript files. |
 ## **Save HTML**
 Once you have finished your changes as it is described here, you may want to save the document. The following example is the easiest way to save HTML file:
 
@@ -26,7 +26,7 @@ Once you have finished your changes as it is described here, you may want to sav
 
 The sample above is quite simple. However, in real-life applications you often need additional control over the saving process. The next few sections describe how to use resource handling options or save you document to the different formats.
 ### **HTML to File**
-` `The following code snippet shows how to use [ResourceHandlingOptions](https://apireference.aspose.com/net/html/aspose.html.saving/saveoptions/properties/resourcehandlingoptions) to manage linked to your document files.
+The following code snippet shows how to use [ResourceHandlingOptions](https://apireference.aspose.com/net/html/aspose.html.saving/saveoptions/properties/resourcehandlingoptions) to manage linked to your document files.
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WorkingWithDocuments-SavingADocument-HTMLWithoutLinkedFile.cs" >}}
 ### **HTML to MHTML**

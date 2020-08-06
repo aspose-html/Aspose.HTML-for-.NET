@@ -16,7 +16,7 @@ The evaluation version (without a license specified) provides full product funct
 
 {{% alert color="primary" %}} 
 
-` `If you want to test Aspose.HTML for .NET without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license)
+If you want to test Aspose.HTML for .NET without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license)
 
 {{% /alert %}} 
 ## **Applying a License**
@@ -82,7 +82,7 @@ htmlLicense.SetLicense("Aspose.HTML.lic");
 
 {{% alert color="primary" %}} 
 
-` `Please note, that resources are embedded in to assembly without modification. If you add a text file as an embedded resource in application and open the resultant EXE in notepad, you will see the exact contents of the added text file. So, when using a license file as an embedded resource, anyone can open EXE file in some simple text editor and see/extract the contents of the embedded license.
+Please note, that resources are embedded in to assembly without modification. If you add a text file as an embedded resource in application and open the resultant EXE in notepad, you will see the exact contents of the added text file. So, when using a license file as an embedded resource, anyone can open EXE file in some simple text editor and see/extract the contents of the embedded license.
 
 {{% /alert %}} 
 ### **Applying a Metered License**

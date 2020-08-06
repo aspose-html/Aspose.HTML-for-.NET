@@ -149,7 +149,7 @@ The following demo shows how to get all persons from the data-source and populat
 
 {{< /highlight >}}
 
-` `The *foreach directive expression* in the HTML page template:
+The *foreach directive expression* in the HTML page template:
 
 **HTML Template**
 

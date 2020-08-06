@@ -39,7 +39,7 @@ The GitLab Flavored Markdown extends this list with the next tags: ARTICLE, FOO
 ### **Features nesting**
 Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://apireference.aspose.com/net/html/aspose.html.saving/markdownfeatures) enumeration.
 
-|**Parent feature** |` `**Features which can be processed inside**|
+|**Parent feature** |**Features which can be processed inside**|
 | :-: | :-: |
 |Header |Link, Emphasis, Strong, InlineCode, Image, Strikethrough, Video |
 |Blockquote |Any |

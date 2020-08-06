@@ -81,7 +81,7 @@ The following C# code snippet shows how to convert HTML to TIFF using Aspose.HTM
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertHTMLToImage-SpecifyImageSaveOptions.cs" >}}
 
-` `To learn more about [ImageOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/net/fine-tuning-converters/) article.
+To learn more about [ImageOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/net/fine-tuning-converters/) article.
 ## **Output Stream Providers**
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
