@@ -8,20 +8,27 @@ on:
 jobs:
   job-one:
     name: Deploy
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, dev4-github]
     steps:
-    - name: build Hugo public site
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.SSHKEY }}
-        port: ${{ secrets.SSHPORT }}
-        script: |
+      - name: hugo build
+        run: |
           cd aspose-html-docs
           git clone --single-branch --branch master https://github.com/aspose-html/Aspose.HTML-for-.NET.git || (cd Aspose.HTML-for-.NET; git pull)
-          cp -R Aspose.HTML-for-.NET/Docs/* aspose-prototype-html/content/net
-          cd aspose-prototype-html
+          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd lutsk-aspose-prototype; git pull)
+          cd lutsk-aspose-prototype
+          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-theme.git || (cd lutsk-aspose-theme; git pull)
+          sudo npm install -D --save autoprefixer
+          sudo npm install -D --save postcss-cli
+          cp -R ${{ secrets.PROJECTPATH }}/Aspose.HTML-for-.NET/Docs/* content/net
           hugo --baseURL https://docs.aspose.com/html
-          sudo cp -R public/net/* ${{ secrets.PROJECTPATH }}
-          sudo nginx -s reload
+          scp -r public/net/* ${{ secrets.TRANSFERPATH }}
+      - name: hugo deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSHKEY }}
+          port: ${{ secrets.SSHPORT }}
+          script: |
+            sudo cp -R aspose-html-docs/public-content/net/* ${{ secrets.DEPLOYPATH }}
+            sudo nginx -s reload
