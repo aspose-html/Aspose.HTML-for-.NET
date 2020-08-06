@@ -10,7 +10,7 @@ url: /net/web-scraping/
 There are many ways that can be used to make HTML navigation. The following shortlist shows the simplest way to access to all DOM elements:
 
 |**Property**|**Description**|
-| :-: | :-: |
+| :- | :- |
 |[FirstChild](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/firstchild)|Accessing this attribute of an element must return a reference to the first child node.|
 |[LastChild](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/lastchild)|Accessing this attribute of an element must return a reference to the last child node|
 |[NextSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/nextsibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately follows that element.|

@@ -18,7 +18,7 @@ The [DOM namespace](https://apireference.aspose.com/net/html/aspose.html.dom/)�
 The following is a brief list of useful API methods provides by the core data types:
 
 |**Method** |**Description**|
-| :-: | :-: |
+| :- | :- |
 |[document.getElementById(elementId)](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/getelementbyid) |The method, when invoked, must return the first element whose ID is elementId and null if there is no such element otherwise.|
 |[document.getElementsByTagName(name) ](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/getelementsbytagname)|The method must return the list of elements with the given name.|
 |[document.createElement(tagName)](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/createelement)|The method creates the HTML element specified by tagName, or an [HTMLUnknownElement](https://apireference.aspose.com/net/html/aspose.html/htmlunknownelement) if tagName isn't recognized.|
@@ -31,7 +31,7 @@ For a complete list of interfaces and methods represented in the DOM namespace p
 There are many ways you can edit HTML by using our library. You can modify the document by inserting new nodes, removing, or editing the content of existing nodes. If you need to create a new node, the following methods are ones that need to be invoked:
 
 |**Method** |**Description** |
-| :-: | :-: |
+| :- | :- |
 |[document.CreateCDATASection(data)](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/createcdatasection) |Creates a CDATASection node whose value is the specified string. |
 |[document.CreateComment(data)](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/createcomment) |Creates a Comment node given the specified string. |
 |[document.CreateDocumentFragment()](https://apireference.aspose.com/net/html/aspose.html.dom/document/methods/createdocumentfragment) |Creates an empty DocumentFragment object. |
@@ -44,7 +44,7 @@ There are many ways you can edit HTML by using our library. You can modify the 
 Once you have new nodes are created, there are several methods in DOM that can help you to insert nodes into the tree. The following list describes the most common way of inserting nodes: 
 
 |**Method** |**Description** |
-| :-: | :-: |
+| :- | :- |
 |[node.InsertBefore(node, child)](https://apireference.aspose.com/net/html/aspose.html.dom/node/methods/insertbefore) |Inserts the node before the reference *child* node|
 |[node.AppendChild(node)](https://apireference.aspose.com/net/html/aspose.html.dom/node/methods/appendchild) |Adds the node to the list of children of the current node |
 To remove a node from the HTML DOM tree, please use the [RemoveChild(child)](https://apireference.aspose.com/net/html/aspose.html.dom/node/methods/removechild) or [Remove()](https://apireference.aspose.com/net/html/aspose.html.dom/node/methods/removechild) methods.

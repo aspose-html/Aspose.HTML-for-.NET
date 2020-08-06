@@ -15,7 +15,7 @@ Historically, browser vendors use the prefixes for nonstandard CSS features. Fo
 The prefix that is used by Aspose.HTML library looks like **-aspose-** and gives you some experimental features. Following is a list of CSS functions that can be enabled by using **-aspose-** prefix:
 
 |**Name**|**Description**|
-| :-: | :-: |
+| :- | :- |
 |currentPageNumber |This function returns the number of the current rendering page.|
 |totalPagesNumber |This function returns the number of the total pages in the document.|
 The next code snippet demonstrates how to use CSS extensions to create custom marks on document margins: 
