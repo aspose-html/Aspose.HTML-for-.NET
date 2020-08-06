@@ -16,6 +16,7 @@ There are many ways that can be used to make HTML navigation. The following sho
 |[NextSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/nextsibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately follows that element.|
 |[PreviousSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/previoussibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately precedes that element.|
 |[ChildNodes](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/childnodes)|Returns a [list](https://apireference.aspose.com/net/html/aspose.html.collections/nodelist) that contains all children of that element.|
+
 Using the mentioned properties, you can navigate through an HTML document as it follows:
 
 

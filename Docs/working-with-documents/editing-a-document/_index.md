@@ -15,6 +15,7 @@ The [DOM namespace](https://apireference.aspose.com/net/html/aspose.html.dom/)�
 |[Node](https://apireference.aspose.com/net/html/aspose.html.dom/node)|The *Node* is the primary datatype for the entire *Document Object Model*. It represents a single node in the document tree.|
 |[Element](https://apireference.aspose.com/net/html/aspose.html.dom/element)|The element type is based on node and represents a base class for *HTML*, *XML* or *SVG DOM.*|
 |[Attribute](https://apireference.aspose.com/net/html/aspose.html.dom/attr)|The *Attr* interface represents an attribute in an Element object. Typically the allowable values for the attribute are defined in a schema associated with the document.|
+
 The following is a brief list of useful API methods provides by the core data types:
 
 |**Method** |**Description**|
