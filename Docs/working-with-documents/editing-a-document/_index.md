@@ -26,6 +26,7 @@ The following is a brief list of useful API methods provides by the core data 
 |[element.setAttribute(name, value)](https://apireference.aspose.com/net/html/aspose.html.dom/element/methods/setattribute)|Sets the value of an attribute on the specified element.|
 |[element.getAttribute(name)](https://apireference.aspose.com/net/html/aspose.html.dom/element/methods/getattribute)|The method returns the value of a specified attribute on the element.|
 |[element.innerHTML](https://apireference.aspose.com/net/html/aspose.html.dom/element/properties/innerhtml) |Returns a fragment of markup contained within the element.|
+
 For a complete list of interfaces and methods represented in the DOM namespace please visit [API Reference Source](https://apireference.aspose.com/net/html/aspose.html.dom/).
 ## **Edit HTML**
 There are many ways you can edit HTML by using our library. You can modify the document by inserting new nodes, removing, or editing the content of existing nodes. If you need to create a new node, the following methods are ones that need to be invoked:
