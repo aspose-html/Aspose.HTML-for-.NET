@@ -26,7 +26,7 @@ This section lists public API changes that were introduced in Aspose.HTML for .N
 
 {{% /alert %}} 
 #### **Added APIs:**
-#### **DocumentFragment was extended with IParentNode interface, following methods were implemented respectively.**
+DocumentFragment was extended with IParentNode interface, following methods were implemented respectively.
 {{< highlight java >}}
 
  namespace Aspose.Html.Dom
@@ -148,7 +148,7 @@ This section lists public API changes that were introduced in Aspose.HTML for .N
 }
 
 {{< /highlight >}}
-#### **Added ability to set up default background color for the output documents.**
+Added ability to set up default background color for the output documents.
 {{< highlight java >}}
 
  namespace Aspose.Html.Rendering

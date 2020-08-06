@@ -16,7 +16,7 @@ As regular monthly update process of all APIs being offered by Aspose, we are pl
 |HTMLNET-887|HTML to PNG image conversion|Enhancement|
 |HTMLNET-888|Support for media commands @print and @screen|Enhancement|
 |HTMLNET-889|The RequestMessage.Method property does not work|Bug|
-|HTMLNET-820|<input> elements of HTML5 type is not rendered|Bug|
+|HTMLNET-820|"input" elements of HTML5 type is not rendered|Bug|
 ### **Public API changes**
 #### **Added APIs:**
 {{< highlight java >}}

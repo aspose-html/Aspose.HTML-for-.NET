@@ -25,7 +25,7 @@ This section lists public API changes that were introduced in Aspose.HTML 18.6. 
 
 {{% /alert %}} 
 #### **Added APIs:**
-#### **Added method RenderTo to the document to simplify rendering process**
+Added method RenderTo to the document to simplify rendering process
 {{< highlight java >}}
 
  class Aspose.Html.Dom.Document
@@ -45,7 +45,7 @@ This section lists public API changes that were introduced in Aspose.HTML 18.6. 
 }
 
 {{< /highlight >}}
-#### **Classes HTMLDocument and SVGDocument have been extended with the following list of overridden methods 'Save'**
+Classes HTMLDocument and SVGDocument have been extended with the following list of overridden methods 'Save'
 {{< highlight java >}}
 
  class Aspose.Html.HTMLDocument
@@ -258,7 +258,7 @@ This section lists public API changes that were introduced in Aspose.HTML 18.6. 
 }
 
 {{< /highlight >}}
-#### **Namespace 'Aspose.Html.Saving' has respectively been extended to support new methods Save**
+Namespace 'Aspose.Html.Saving' has respectively been extended to support new methods Save
 {{< highlight java >}}
 
  namespace Aspose.Html.Saving
@@ -629,7 +629,7 @@ This section lists public API changes that were introduced in Aspose.HTML 18.6. 
 }
 
 {{< /highlight >}}
-#### **Namespace Aspose.Html.Forms and following object have been introduced**
+Namespace Aspose.Html.Forms and following object have been introduced
 {{< highlight java >}}
 
  namespace Aspose.Html.Forms

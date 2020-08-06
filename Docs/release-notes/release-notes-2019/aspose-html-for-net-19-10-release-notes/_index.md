@@ -97,7 +97,7 @@ GraphicContext has been extended with information about rendered characters.
 }
 
 {{< /highlight >}}
-#### **New Class and Structure Added**
+
 Added class and struct which contains information about rendered characters.
 
 {{< highlight java >}}

@@ -26,7 +26,7 @@ This section lists public API changes that were introduced in Aspose.HTML for .N
 
 {{% /alert %}} 
 #### **Added APIs:**
-#### **Introduced a new type of Aspose.Html.Forms namespace: ButtonElement object.**
+Introduced a new type of Aspose.Html.Forms namespace: ButtonElement object.
 {{< highlight java >}}
 
  /// <summary>
@@ -74,7 +74,7 @@ public class ButtonElement: FormElement<HTMLButtonElement>
 }
 
 {{< /highlight >}}
-#### **Added CSSMarginRule object according to CSS specification.**
+Added CSSMarginRule object according to CSS specification.
 {{< highlight java >}}
 
  public interface ICSSMarginRule : ICSSRule
@@ -102,7 +102,7 @@ public class ButtonElement: FormElement<HTMLButtonElement>
 {{< /highlight >}}
 
 
-#### **Added the overridden methods to the FormSubmitter object that allow to specify CookieContainer during the web request/response operations.**
+Added the overridden methods to the FormSubmitter object that allow to specify CookieContainer during the web request/response operations.
 {{< highlight java >}}
 
  public class FormSubmitter
@@ -138,7 +138,7 @@ public class ButtonElement: FormElement<HTMLButtonElement>
 {{< /highlight >}}
 
 
-#### **The ResponseMessage object has been changed and now supports CookieContainer property.**
+The ResponseMessage object has been changed and now supports CookieContainer property.
 {{< highlight java >}}
 
  namespace Aspose.Html.Net
@@ -170,7 +170,7 @@ public class ButtonElement: FormElement<HTMLButtonElement>
 }
 
 {{< /highlight >}}
-#### **The abstract renderer object has been extended with ability to render multiple documents into a single output device; all derived classes HtmlRenderer, SvgRenderer, MhtmlRenderer and EpubRenderer have been extended as well.**
+The abstract renderer object has been extended with ability to render multiple documents into a single output device; all derived classes HtmlRenderer, SvgRenderer, MhtmlRenderer and EpubRenderer have been extended as well.
 {{< highlight java >}}
 
  public abstract class Renderer<TDocument> : Renderer

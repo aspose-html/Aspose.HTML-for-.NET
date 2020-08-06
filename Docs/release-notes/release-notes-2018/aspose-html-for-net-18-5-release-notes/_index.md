@@ -17,7 +17,7 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 |HTMLNET-1120|Parameter is not valid exception|Bug|
 ### **Public API changes**
 #### **Added APIs:**
-#### **TextOptions has been introduced in order to specify text rendering quality options**
+TextOptions has been introduced in order to specify text rendering quality options
 {{< highlight java >}}
 
  /// <summary>
@@ -41,7 +41,7 @@ class Aspose.Html.Rendering.Image.TextOptions
 TextRenderingHint TextRenderingHint { get; set; }
 
 {{< /highlight >}}
-#### **HTMLCanvasElement provides methods properties for manipulating W3C HTML Canvas layout.**
+HTMLCanvasElement provides methods properties for manipulating W3C HTML Canvas layout.
 {{< highlight java >}}
 
  /// <summary>
@@ -121,7 +121,7 @@ ulong Width{ get; set; }
 ulong Height{ get; set; }
 
 {{< /highlight >}}
-#### **HTML Canvas interfaces based on official specification (https://www.w3.org/TR/2dcontext/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.**
+HTML Canvas interfaces based on official specification (https://www.w3.org/TR/2dcontext/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.
 {{< highlight java >}}
 
  /// <summary>
