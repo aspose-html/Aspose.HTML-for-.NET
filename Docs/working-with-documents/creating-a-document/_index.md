@@ -24,7 +24,7 @@ Following code snippet shows how to load the [HTMLDocument](https://apireferenc
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WorkingWithDocuments-CreatingADocument-HTMLDocumentFromFile.cs" >}}
 ### **Load from a URL**
-In the next code snippet you can see how to load a web page into [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument)** 
+In the next code snippet you can see how to load a web page into [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument)
 
 In case if you pass a wrong URL that can't be reached right at the moment, the library throws the [DOMException](https://apireference.aspose.com/net/html/aspose.html/htmlexception) with specialized code 'NetworkError' to inform you that the selected resource can not be found.
 

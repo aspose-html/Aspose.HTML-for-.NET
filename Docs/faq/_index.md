@@ -9,8 +9,9 @@ url: /net/faq/
 
 Q: How to convert HTML document to PDF?
 
-**Answer: 
-**It is very simple. You can do this literally with a single line of code! 
+**Answer:**
+
+It is very simple. You can do this literally with a single line of code! 
 
 {{< highlight csharp >}}
 
