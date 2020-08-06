@@ -21,7 +21,7 @@ jobs:
           sudo npm install -D --save postcss-cli
           cp -R ${{ secrets.PROJECTPATH }}/Aspose.HTML-for-.NET/Docs/* content/net
           hugo --baseURL https://docs.aspose.com/html
-          scp -r public/net ${{ secrets.TRANSFERPATH }}/net
+          scp -r public/net/* ${{ secrets.TRANSFERPATH }}
       - name: hugo deploy
         uses: appleboy/ssh-action@master
         with:
@@ -30,6 +30,5 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: ${{ secrets.SSHPORT }}
           script: |
-            cd aspose-html-docs
-            sudo cp -R net/* ${{ secrets.DEPLOYPATH }}
+            sudo cp -R aspose-html-docs/public-content/net/* ${{ secrets.DEPLOYPATH }}
             sudo nginx -s reload
