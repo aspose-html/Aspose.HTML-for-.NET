@@ -14,11 +14,11 @@ jobs:
         run: |
           cd aspose-html-docs
           git clone --single-branch --branch develop https://github.com/aspose-html/Aspose.HTML-for-.NET.git || (cd Aspose.HTML-for-.NET; git pull)
-          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd aspose-prototype; git pull)
+          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd lutsk-aspose-prototype; git pull)
+          cd lutsk-aspose-prototype
           git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-theme.git || (cd lutsk-aspose-theme; git pull)
-          pwd
-          cd aspose-prototype
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
-          ls -l
-          pwd
+          cp -R ${{ secrets.PROJECTPATH }}/Aspose.HTML-for-.NET/Docs/* content/net
+          hugo --baseURL https://docs.aspose.com/html
+          
