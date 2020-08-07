@@ -25,7 +25,7 @@ In the package manager console, you can also use the command "**Update-Package A
 ## **Installing Aspose.HTML for .NET through MSI**
 These steps describe how to install Aspose.HTML for .NET using MSI:
 
-1. Download **Aspose.HTML_(LatestVersion).msi** from the [downloads section](https://downloads.aspose.com/html/net).
+1. Download Aspose.HTML_(LatestVersion).msi from the [downloads section](https://downloads.aspose.com/html/net).
 1. Doble-click the downloaded file. The setup wizard shall start. Follow the setup wizard instructions. When the setup wizard shall finish the installation, the required files shall be available in the folder at the provided folder path.
 1. Open your solution/project in Visual Studio.
 1. Right-click on your project in solution explorer and add the reference to the installed assemblies.
