@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML for .NET 20.3 Release Notes
 type: docs
-weight: 20
+weight: 100
 url: /net/aspose-html-for-net-20-3-release-notes/
 ---
 
