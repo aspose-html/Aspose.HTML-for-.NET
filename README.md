@@ -1,3 +1,5 @@
+![Nuget](https://img.shields.io/nuget/v/Aspose.HTML) ![Nuget](https://img.shields.io/nuget/dt/Aspose.HTML) ![GitHub](https://img.shields.io/github/license/aspose-html/Aspose.HTML-for-.NET)
+
 # HTML File Manipulation .NET API
 
 The [.NET HTML API](https://products.aspose.com/html/net) assists developers to write, read, modify, navigate and convert (X)HTML documents from within .NET applications.
