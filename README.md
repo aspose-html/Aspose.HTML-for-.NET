@@ -57,4 +57,4 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 }
 ```
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net) | [Docs](https://docs.aspose.com/html/net/) | [Demos](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/html/net) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net) | [Docs](https://docs.aspose.com/html/net/) | [Demos](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/html/net) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)
