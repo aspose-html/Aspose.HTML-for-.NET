@@ -13,6 +13,14 @@ Aspose.HTML for .NET API works as a headless browser that allows you to [create 
   </a>
 </p>
 
+## Workflow
+
+In order to make changes in the repository, you need to:
+
+1. Create a branch with the proposed changes whose name matches the feature/* pattern.
+2. Create a pull request for this branch. It will be automatically assigned to a suitable reviewer.
+3. Once the request is approved, it can be merged.
+
 ## HTML Processing Features
 
 - Convert HTML to [many popular formats](https://docs.aspose.com/html/net/supported-file-formats/) including PDF, XPS and images.
