@@ -1,0 +1,34 @@
+MIME-Version: 1.0
+Content-Type: Multipart/related; boundary="boundary";type=Text/HTML
+
+--boundary
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+Content-ID: <1>
+Content-Location: file:///c:/temp/d36f8ae2-e84c-410b-a2c1-8faa1074a2f9/input/SampleHtmlForm.html
+
+<!DOCTYPE html><html><head></head><body>
+	<form action=3D"/handling-form-page" method=3D"post">
+		<div>
+			<label for=3D"name">Name:</label>
+			<input type=3D"text" id=3D"name" name=3D"user-name">
+		</div>
+
+		<div>
+			<label for=3D"mail">E-mail:</label>
+			<input type=3D"email" id=3D"mail" name=3D"user-email">
+		</div>
+
+		<div>
+			<label for=3D"msg">Message:</label>
+			<textarea id=3D"msg" name=3D"user-message"></textarea>
+		</div>
+
+		<div class=3D"button">
+			<button type=3D"submit">Send your message</button>
+		</div>
+	</form>
+	
+</body></html>
+
+--boundary--

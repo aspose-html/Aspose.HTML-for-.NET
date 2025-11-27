@@ -1,0 +1,7 @@
+<svg id="mySvg" height="140" width="140" viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 61 78 C 10 28 133 -15 134 91 C 122 34 52 33 61 78" fill="#3993c9"/>
+    <path d="M 61 78 C 10 28 133 -15 134 91 C 122 34 52 33 61 78" fill="#f3622a" transform="rotate(90 66 64) translate(5 -14)"/>
+    <path d="M 61 78 C 10 28 133 -15 134 91 C 122 34 52 33 61 78" fill="#c1af2c" transform="rotate(180 61 78) translate(-19 9)"/>
+    <path d="M 61 78 C 10 28 133 -15 134 91 C 122 34 52 33 61 78" fill="#499c43" transform="rotate(-90 61 78) translate(-5 14)"/>
+    <circle cx="70.5" cy="73.5" r="40" fill="white" fill-opacity="0.3"/>
+</svg>

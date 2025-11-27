@@ -1,0 +1,10 @@
+<svg height="600" width="600" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none">
+        <path d="M 230 150 Q 270 230 110 320" stroke="green" stroke-width="3" />         
+        <circle cx="230" cy="150" r="40" stroke="OrangeRed"  stroke-width="40"  />
+        <circle cx="230" cy="150" r="35" stroke="orange"  stroke-dasharray="10,10" stroke-width="90" />
+ 		<circle cx="230" cy="150" r="30" stroke="grey" stroke-width="20" stroke-dasharray="5,12" />        
+    </g>
+        <circle cx="230" cy="150" r="7" />
+		<path d="M 110,200 A 70,70 0 0 0 130,310 A 65,65 0 0 0 110,200" style="fill:green" />
+</svg>

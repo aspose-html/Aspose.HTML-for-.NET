@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dealers>
+  <Dealer>
+    <Name>DealerName1</Name>
+    <Telephone>123-456-789</Telephone>
+    <Cars>
+      <Car CarID="1">
+        <CarInfo>
+          <Name>CarName1</Name>
+          <Make>CarMake1</Make>
+          <Model>2010</Model>
+        </CarInfo>
+        <Price>21000</Price>
+        <Type>Hatchback</Type>
+      </Car>
+      <Car CarID="2">
+        <CarInfo>
+          <Name>CarName2</Name>
+          <Make>CarMake2</Make>
+          <Model>2011</Model>
+        </CarInfo>
+        <Price>40000</Price>
+        <Type>Hatchback</Type>
+      </Car>
+    </Cars>
+  </Dealer>
+  <Dealer>
+    <Name>DealerName2</Name>
+    <Telephone>456-789-123</Telephone>
+    <Cars>
+      <Car CarID="1">
+        <CarInfo>
+          <Name>CarName3</Name>
+          <Make>CarMake3</Make>
+          <Model>2001</Model>
+        </CarInfo>
+        <Price>24000</Price>
+        <Type>Sedan</Type>
+      </Car>
+      <Car CarID="2">
+        <CarInfo>
+          <Name>CarName4</Name>
+          <Make>CarMake4</Make>
+          <Model>2010</Model>
+        </CarInfo>
+        <Price>20000</Price>
+        <Type>Sedan</Type>
+      </Car>
+    </Cars>
+  </Dealer>
+  <Dealer>
+    <Name>DealerName3</Name>
+    <Telephone>789-123-456</Telephone>
+    <Cars>
+      <Car CarID="1">
+        <CarInfo>
+          <Name>CarName5</Name>
+          <Make>CarMake5</Make>
+          <Model>2003</Model>
+        </CarInfo>
+        <Price>24000</Price>
+        <Type>Sedan</Type>
+      </Car>
+      <Car CarID="2">
+        <CarInfo>
+          <Name>CarName6</Name>
+          <Make>CarMake6</Make>
+          <Model>2004</Model>
+        </CarInfo>
+        <Price>18000</Price>
+        <Type>Hatchback</Type>
+      </Car>
+    </Cars>
+  </Dealer>
+</Dealers>

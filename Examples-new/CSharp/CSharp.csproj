@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>Aspose.Html.Examples</RootNamespace>
+    <AssemblyName>Aspose.Html.Examples</AssemblyName>
+    <StartupObject>Aspose.Html.Examples.RunExamples</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspose.HTML" Version="25.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CreatingDocumentExample.cs" />
+    <Compile Include="HtmlToPdfExample.cs" />
+    <Compile Include="WebScrapingExample.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="BaseExample.cs" />
+  </ItemGroup>
+</Project>
