@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-150 50 1000 1000" width="600" height="600">
+	<g id="tulip">
+	<g id="base" fill="#4a2d2d"> 
+		<!-- basic polygon1-left  -->
+		<polygon id="p1-l" points="200,200 230,240 230,300 200,260"  />
+		<!-- basic polygon1-right  -->
+		<polygon id="p1-r" points="290,240 320,200 320,260 290,300"  />
+	</g>
+	
+	<!-- basic polygon2  -->
+    <polygon id="p2" points="230,300 260,340 290,300 290,360 260,400 230,360" fill="#78a86a" />
+	<rect x="250" y="385" width="20" height="100" fill="#78a86a" />	
+	
+	<!-- yellow polygons  -->
+	<g id="yellow" fill="#ccae36"> 
+		<use href="#p1-l" transform="translate(0, 60)" />
+		<use href="#p1-r" transform="translate(0, 60)" />
+		<use href="#p1-l" transform="translate(30, 40)" />
+		<use href="#p1-r" transform="translate(-30, 40)" />
+	</g>
+	<!-- dark polygons  -->
+	<g id="dark" fill="darkred"> 
+		<use href="#p1-l" transform="translate(-30, 20)" />
+		<use href="#p1-r" transform="translate(30, 20)" />
+		<use href="#p1-l" transform="translate(30, -20)" />
+		<use href="#p1-r" transform="translate(-30, -20)" />
+	</g>	
+	<!-- pink polygons  -->
+	<g id="pink" fill="#e6b7c0"> 
+		<use href="#p1-l" transform="translate(0, -60)" />
+		<use href="#p1-r" transform="translate(0, -60)" />
+		<use href="#p1-l" transform="translate(30, -80)" />
+		<use href="#p1-r" transform="translate(-30, -80)" />
+		<use href="#p1-l" transform="translate(-30, -40)" />
+		<use href="#p1-r" transform="translate(30, -40)" />
+		<use href="#p1-l" transform="translate(-60, -20)" />
+		<use href="#p1-r" transform="translate(60, -20)" /> 
+	</g>
+	</g>
+	
+	<g id="rotate">
+		<use href="#tulip" transform="rotate(60, 260, 480)" />
+		<use href="#tulip" transform="rotate(120, 260, 480)" />
+		<use href="#tulip" transform="rotate(180, 260, 480)" />
+		<use href="#tulip" transform="rotate(240, 260, 480)" />
+		<use href="#tulip" transform="rotate(300, 260, 480)" />		
+	</g>
+</svg>
+
+

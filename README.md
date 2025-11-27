@@ -2,7 +2,7 @@
 
 # HTML File Manipulation .NET API
 
-The [.NET HTML API](https://products.aspose.com/html/net) assists developers to write, read, modify, navigate and convert (X)HTML documents from within .NET applications.
+The [.NET HTML API](https://products.aspose.com/html/net/) assists developers to write, read, modify, navigate and convert (X)HTML documents from within .NET applications.
 
 Aspose.HTML for .NET API works as a headless browser that allows you to [create or open existing HTML documents](https://docs.aspose.com/html/net/creating-a-document/) from various sources in order to perform manipulation operations such as remove and replace HTML nodes, save HTML documents, extract CSS from HTML, configure a document sandbox and more. You may navigate HTML documents by using various methods, such as, element traversal, document traversal, XPath queries, and CSS selector queries as well as manipulate HTML DOM via JavaScript, convert HTML file to images or fixed layout formats, and convert (X)HTML and EPUB files to other file formats.
 
@@ -65,4 +65,4 @@ using (var document = new Aspose.Html.HTMLDocument("<p>my first paragraph</p>", 
 }
 ```
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net) | [Docs](https://docs.aspose.com/html/net/) | [Demos](https://products.aspose.app/html/family) | [API Reference](https://apireference.aspose.com/html/net) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/category/html/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/html) |  [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net/) | [Docs](https://docs.aspose.com/html/net/) | [Demos](https://products.aspose.app/html/applications) | [API Reference](https://reference.aspose.com/html/net/) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/categories/aspose.html-product-family/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/html/29) | [Temporary License](https://purchase.aspose.com/temporary-license/)

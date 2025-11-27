@@ -1,0 +1,20 @@
+<svg height="700" width="750" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="black" stroke-width="3" fill="none">
+        <!--body 1 path-->
+        <path d="M 100 250 C 150 60  355 140  328 260 C 240 510 40 500 100 250" />
+        <!--wing-->
+        <path d="M 110 260 C 220 200, 250 280, 120 410" />
+        <!--1 eyebrow-->
+        <path d="M 110 240 C 130 220, 220 130, 231 230" />
+        <!--2 eyebrow-->
+        <path d="M 231 231 C 230 220, 280 130, 329 258" />
+        <!--line-->
+        <path d="M 30 380 l 63 0" />
+        <path d="M 266 380 c 33 8 63 -8 90 5" />
+        <!--eyes-->
+        <circle cx="204" cy="209" r="3" />
+        <circle cx="205" cy="210" r="9" />
+        <circle cx="265" cy="209" r="3" />
+        <circle cx="265" cy="210" r="8" />
+    </g>
+</svg>

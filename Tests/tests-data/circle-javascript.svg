@@ -1,0 +1,15 @@
+<svg id="mySvg" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background rectangle -->
+  <rect width="100%" height="100%" fill="#d1d1d1" />
+
+  <!-- Some content in the SVG -->
+  <circle cx="100" cy="100" r="50" fill="#f3622a" />
+
+  <script type="text/javascript">
+    // JavaScript to change the background color on click
+    document.getElementById("mySvg").addEventListener("click", function() {
+      var rect = document.querySelector("#mySvg rect");
+      rect.setAttribute("fill", rect.getAttribute("fill") === "#d1d1d1" ? "mistyrose" : "#d1d1d1");
+    });
+  </script>
+</svg>
