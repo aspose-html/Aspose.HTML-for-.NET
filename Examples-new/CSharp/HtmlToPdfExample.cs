@@ -16,7 +16,7 @@ namespace Aspose.Html.Examples
         /// </summary>
         public static void ConvertHtmlStringToPdf()
         {
-            string outputPath = Path.Combine(BaseExample.GetOutputDir(), "simple-html.pdf");
+            string outputPath = Path.Combine(BaseExample.OutputDir, "simple-html.pdf");
             // Single-line HTML to PDF conversion
             Converter.ConvertHTML("<h1>Hello, PDF!</h1>", ".", new PdfSaveOptions(), outputPath);
             Console.WriteLine($"PDF created: {outputPath}");
@@ -27,9 +27,9 @@ namespace Aspose.Html.Examples
         /// </summary>
         public static void ConvertHtmlFileToPdf()
         {
-            string htmlPath = Path.Combine(BaseExample.GetDataDir(), "sample.html");
+            string htmlPath = Path.Combine(BaseExample.DataDir, "sample.html");
             File.WriteAllText(htmlPath, "<p>Sample HTML content</p>");
-            string pdfPath = Path.Combine(BaseExample.GetOutputDir(), "sample.pdf");
+            string pdfPath = Path.Combine(BaseExample.OutputDir, "sample.pdf");
             using (HTMLDocument doc = new HTMLDocument(htmlPath))
             {
                 PdfSaveOptions options = new PdfSaveOptions();

@@ -15,7 +15,7 @@ namespace Aspose.Html.Examples
         /// </summary>
         public static void CreateEmptyDocument()
         {
-            string outputPath = Path.Combine(BaseExample.GetOutputDir(), "create-empty-document.html");
+            string outputPath = Path.Combine(BaseExample.OutputDir, "create-empty-document.html");
             using (HTMLDocument doc = new HTMLDocument())
             {
                 doc.Save(outputPath);
@@ -28,7 +28,7 @@ namespace Aspose.Html.Examples
         /// </summary>
         public static void CreateDocumentWithText()
         {
-            string outputPath = Path.Combine(BaseExample.GetOutputDir(), "create-with-text.html");
+            string outputPath = Path.Combine(BaseExample.OutputDir, "create-with-text.html");
             using (HTMLDocument doc = new HTMLDocument())
             {
                 Text txt = doc.CreateTextNode("Hello, Aspose.HTML!");
@@ -47,12 +47,12 @@ namespace Aspose.Html.Examples
     /// </summary>
     public static void LoadHtmlDocumentFromExistingFile()
     {
-        string documentPath = Path.Combine(BaseExample.GetDataDir(), "sprite.html");
+        string documentPath = Path.Combine(BaseExample.DataDir, "sprite.html");
         using (HTMLDocument document = new HTMLDocument(documentPath))
         {
             // Work with the document
-            document.Save(Path.Combine(BaseExample.GetOutputDir(), "sprite_out.html"));
-            Console.WriteLine($"Loaded from existing file and saved to: {Path.Combine(BaseExample.GetOutputDir(), "sprite_out.html")}");
+            document.Save(Path.Combine(BaseExample.OutputDir, "sprite_out.html"));
+            Console.WriteLine($"Loaded from existing file and saved to: {Path.Combine(BaseExample.OutputDir, "sprite_out.html")}");
         }
     }
 
@@ -61,7 +61,7 @@ namespace Aspose.Html.Examples
     /// </summary>
     public static void LoadHtmlDocumentFromFile()
     {
-        string htmlFile = Path.Combine(BaseExample.GetOutputDir(), "load-from-file.html");
+        string htmlFile = Path.Combine(BaseExample.OutputDir, "load-from-file.html");
         File.WriteAllText(htmlFile, "Hello, World!");
         using (HTMLDocument document = new HTMLDocument(htmlFile))
         {
@@ -82,7 +82,7 @@ namespace Aspose.Html.Examples
             mem.Seek(0, SeekOrigin.Begin);
             using (HTMLDocument document = new HTMLDocument(mem, "."))
             {
-                document.Save(Path.Combine(BaseExample.GetOutputDir(), "load-from-stream.html"));
+                document.Save(Path.Combine(BaseExample.OutputDir, "load-from-stream.html"));
                 Console.WriteLine("Document loaded from stream and saved.");
             }
         }
@@ -156,7 +156,7 @@ namespace Aspose.Html.Examples
     /// </summary>
     public static void CreateDocumentFromScratch()
     {
-        string outputPath = Path.Combine(BaseExample.GetOutputDir(), "create-from-scratch.html");
+        string outputPath = Path.Combine(BaseExample.OutputDir, "create-from-scratch.html");
         using (HTMLDocument doc = new HTMLDocument())
         {
             HTMLElement body = doc.Body;
@@ -179,7 +179,7 @@ namespace Aspose.Html.Examples
     public static void CreateDocumentFromContentString()
     {
         string htmlCode = "<p>Hello, World!</p>";
-        string outputPath = Path.Combine(BaseExample.GetOutputDir(), "create-from-string.html");
+        string outputPath = Path.Combine(BaseExample.OutputDir, "create-from-string.html");
         using (HTMLDocument doc = new HTMLDocument(htmlCode, "."))
         {
             doc.Save(outputPath);
