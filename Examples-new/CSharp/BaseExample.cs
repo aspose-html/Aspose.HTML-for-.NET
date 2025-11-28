@@ -5,24 +5,24 @@ using System.Reflection;
 namespace Aspose.Html.Examples
 {
     /// <summary>
-    /// Base helper class. Provides clear path handling for data, output and URL folders
+    /// Base helper class for examples. Provides clear path handling for data, output and URL folders
     /// </summary>
-    public static class BaseExample
+    public class BaseExample
     {
         // Fields – resolved once at startup (based on the executable location)
-        private static readonly string dataDir;
-        private static readonly string outDir;
-        private static readonly string outUrl;
-        private static readonly string svgNS = "http://www.w3.org/2000/svg";
+        private readonly string dataDir;
+        private readonly string outDir;
+        private readonly string outUrl;
+        private readonly string svgNS = "http://www.w3.org/2000/svg";
 
-        private static string exampleDir = string.Empty;
+        private string exampleDir = string.Empty;
 
-        // Static constructor – runs once when the class is first used
-        static BaseExample()
+        // Constructor – runs once when the class is instantiated
+        public BaseExample()
         {
             // Executable location: ...\Examples-new\CSharp\bin\Debug\net48\Aspose.Html.Examples.exe
             var exeDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            // Go up three levels to reach the Examples-new\CSharp folder (project root for examples)
+            // Go up three levels to reach the Examples‑new\CSharp folder (project root for examples)
             var baseDir = Path.GetFullPath(Path.Combine(exeDir, "..", "..", ".."));
             dataDir = Path.Combine(baseDir, "data");
             outDir = Path.Combine(baseDir, "output");
@@ -39,7 +39,7 @@ namespace Aspose.Html.Examples
         /// Sets the sub‑directory for the current example
         /// </summary>
         /// <param name="dir">Optional sub‑folder name.</param>
-        public static void SetOutputDir(string dir = "")
+        protected void SetOutputDir(string dir = "")
         {
             exampleDir = dir;
 
@@ -58,26 +58,21 @@ namespace Aspose.Html.Examples
         /// <summary>
         /// Absolute path to the data directory
         /// </summary>
-        public static string DataDir => dataDir;
+        public string DataDir => dataDir;
 
         /// <summary>
         /// Absolute path to the output directory (including any example sub‑folder)
         /// </summary>
-        public static string OutputDir => Path.Combine(outDir, exampleDir);
+        public string OutputDir => Path.Combine(outDir, exampleDir);
 
         /// <summary>
         /// Absolute URL path to the output directory (including any example sub‑folder)
         /// </summary>
-        public static string OutputUrl => Path.Combine(outUrl, exampleDir);
+        public string OutputUrl => Path.Combine(outUrl, exampleDir);
 
         /// <summary>
         /// SVG namespace used by the examples
         /// </summary>
-        public static string SvgNamespace => svgNS;
-
-        // Backward‑compatible helpers
-        public static string GetDataDir() => DataDir;
-        public static string GetOutputDir() => OutputDir;
-        public static string GetOutputUrl() => OutputUrl;
+        public string SvgNamespace => svgNS;
     }
 }
