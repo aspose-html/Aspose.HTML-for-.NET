@@ -58,8 +58,9 @@ namespace Aspose.Html.Examples
         public void SaveHtmlWithResourcesToZip()
         {
             string inputPath = Path.Combine(DataDir, "with-resources.html");
-            string dir = Directory.GetCurrentDirectory();
-            string archivePath = Path.Combine(dir, "./../../../../tests-out/saving/archive.zip");
+            // Resolve the archive path to the example's output directory and ensure it exists.
+            string archivePath = Path.GetFullPath(
+                Path.Combine(OutputDir, "archive.zip"));
 
             using (HTMLDocument doc = new HTMLDocument(inputPath))
             {
@@ -170,7 +171,8 @@ namespace Aspose.Html.Examples
             public ZipResourceHandler(string name)
             {
                 zipStream = new FileStream(name, FileMode.Create);
-                archive = new ZipArchive(zipStream, ZipArchiveMode.Update);
+                // Use leaveOpen:true so that disposing the ZipArchive does not close the underlying FileStream.
+                archive = new ZipArchive(zipStream, ZipArchiveMode.Update, true);
                 initialized = false;
                 counter = 0;
             }

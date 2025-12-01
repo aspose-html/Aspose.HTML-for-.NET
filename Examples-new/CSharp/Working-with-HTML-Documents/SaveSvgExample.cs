@@ -9,9 +9,6 @@ using System.Collections.Generic;
 
 namespace Aspose.Html.Examples
 {
-    /// <summary>
-    /// Examples derived from Tests/Aspose.HTML.Tests/Working-with-HTML-Documents/SaveSvgTests.cs
-    /// </summary>
     public class SaveSvgExample : BaseExample
     {
         public SaveSvgExample()
@@ -21,7 +18,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Save an SVG document to a file.
+        /// Save an SVG document to a file
         /// </summary>
         public void SaveSvg()
         {
@@ -42,7 +39,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Save an SVG document to memory using a custom resource handler.
+        /// Save an SVG document to memory using a custom resource handler
         /// </summary>
         public void NewMemorySave()
         {
@@ -57,13 +54,18 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Save an SVG document and its resources to a ZIP archive.
+        /// Save an SVG document and its resources to a ZIP archive
         /// </summary>
         public void NewZipSave()
         {
             string inputPath = Path.Combine(DataDir, "with-resources.svg");
-            string dir = Directory.GetCurrentDirectory();
-            string archivePath = Path.Combine(dir, "./../../../../tests-out/save-svg/new/archive.zip");
+            string archivePath = Path.GetFullPath(
+                Path.Combine(OutputDir, "archive.zip"));
+            string archiveDir = Path.GetDirectoryName(archivePath);
+            if (!Directory.Exists(archiveDir))
+            {
+                Directory.CreateDirectory(archiveDir);
+            }
 
             using (SVGDocument doc = new SVGDocument(inputPath))
             {
@@ -76,12 +78,14 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Save an SVG document to a local folder using the new FileSystemResourceHandler.
+        /// Save an SVG document to a local folder using the new FileSystemResourceHandler
         /// </summary>
         public void NewStorageSave()
         {
             string inputPath = Path.Combine(DataDir, "with-resources.svg");
-            string outDir = Path.Combine(Directory.GetCurrentDirectory(), "./../../../../tests-out/save-svg/new/");
+            // Save resources to a folder inside the example output directory.
+            string outDir = Path.GetFullPath(
+                Path.Combine(OutputDir, "new"));
 
             using (SVGDocument doc = new SVGDocument(inputPath))
             {
@@ -124,7 +128,8 @@ namespace Aspose.Html.Examples
             public ZipResourceHandler(string name)
             {
                 zipStream = new FileStream(name, FileMode.Create);
-                archive = new ZipArchive(zipStream, ZipArchiveMode.Update);
+                // Use leaveOpen:true so that disposing the ZipArchive does not close the underlying FileStream.
+                archive = new ZipArchive(zipStream, ZipArchiveMode.Update, true);
                 initialized = false;
                 counter = 0;
             }
@@ -147,7 +152,9 @@ namespace Aspose.Html.Examples
 
             public void Dispose()
             {
+                // Ensure all entries are flushed and the archive is properly closed
                 archive?.Dispose();
+                zipStream?.Flush();
                 zipStream?.Dispose();
             }
         }

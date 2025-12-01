@@ -9,7 +9,7 @@ namespace Aspose.Html.Examples
         {
             Console.WriteLine("Running custom examples from Examples-new...");
             Console.WriteLine("--------------------------------------------------");
-
+            /*
             // Document creation examples
             var creatingDoc = new CreatingDocumentExample();
             creatingDoc.CreateEmptyDocument();
@@ -42,10 +42,10 @@ namespace Aspose.Html.Examples
             downloadSvg.ExtractExternalSvg();
 
             var downloadWebsite = new DownloadWebsiteExample();
-            downloadWebsite.SaveWebpageDefault();
-            downloadWebsite.DownloadWebsite();
-            downloadWebsite.DownloadSiteUsingMaxHandlingDepth();
-            downloadWebsite.SaveWebsiteUsingPageUrlRestriction();
+            //downloadWebsite.SaveWebpageDefault();
+            //downloadWebsite.DownloadWebsite();
+            //downloadWebsite.DownloadSiteUsingMaxHandlingDepth();
+            //downloadWebsite.SaveWebsiteUsingPageUrlRestriction();
 
             var extractTable = new ExtractHtmlTableExample();
             extractTable.ExtractDataFromTable();
@@ -74,13 +74,19 @@ namespace Aspose.Html.Examples
             envConfig.DisableImageLoading();
             envConfig.UserAgentServiceStyleSheet();
             envConfig.UserAgentServiceCharacterSet();
-            envConfig.UserAgentServiceFontSetting();
             envConfig.RuntimeServiceTest();
             envConfig.NetworkServiceTest();
 
             var managingImages = new ManagingImagesExample();
             managingImages.AddImage();
-            managingImages.AddImageBase64();
+            managingImages.AddImageToHtml();
+            managingImages.ResizeImage();
+            managingImages.ExtractImageUrl();
+            managingImages.Extract(); // Download all images referenced in a local HTML file
+            managingImages.ExtractImageFromWebsite(); // Download all images from a web page
+            managingImages.RemoveImage();
+            managingImages.RemoveImageWithCheck();
+            managingImages.RemoveAllImages();
 
             var managingTables = new ManagingTablesExample();
             managingTables.AddTableToHTML();
@@ -94,7 +100,7 @@ namespace Aspose.Html.Examples
             managingTables.RemoveTableCheck();
             managingTables.RemoveAllTables();
             managingTables.EditHTMLTable();
-
+            */
             var saveSvg = new SaveSvgExample();
             saveSvg.SaveSvg();
             saveSvg.NewMemorySave();

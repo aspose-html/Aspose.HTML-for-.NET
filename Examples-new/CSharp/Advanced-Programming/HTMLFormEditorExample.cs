@@ -18,7 +18,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Executes the HTML form editor example.
+        /// Executes the HTML form editor example
         /// </summary>
         public void FillAndSubmitForm()
         {

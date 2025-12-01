@@ -21,7 +21,7 @@ namespace Aspose.Html.Examples
 
 
         /// <summary>
-        /// Converts an HTML5 canvas to PDF (original test snippet).
+        /// Convert an HTML5 canvas to PDF
         /// </summary>
         public void ConvertHtml5CanvasToPdf()
         {
@@ -52,7 +52,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Demonstrates basic 2D drawing on a canvas
+        /// Demonstrate basic 2D drawing on a canvas
         /// </summary>
         public void CanvasRenderingContext2D()
         {
@@ -96,7 +96,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Demonstrates drawing with a radial gradient
+        /// Demonstrate drawing with a radial gradient
         /// </summary>
         public void RadialGradient()
         {
@@ -133,7 +133,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Demonstrates drawing a simple rectangle on a canvas
+        /// Demonstrate drawing a simple rectangle on a canvas
         /// </summary>
         public void RectangleExample()
         {

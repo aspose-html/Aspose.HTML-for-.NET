@@ -22,8 +22,8 @@ namespace Aspose.Html.Examples
         {
             // Executable location: ...\Examples-new\CSharp\bin\Debug\net48\Aspose.Html.Examples.exe
             var exeDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
-            // Go up three levels to reach the Examples‑new\CSharp folder (project root for examples)
-            var baseDir = Path.GetFullPath(Path.Combine(exeDir, "..", "..", ".."));
+            // Go up four levels to reach the Examples‑new folder (project root for examples)
+            var baseDir = Path.GetFullPath(Path.Combine(exeDir, "..", "..", "..", ".."));
             dataDir = Path.Combine(baseDir, "data");
             outDir = Path.Combine(baseDir, "output");
             outUrl = Path.Combine(baseDir, "output");

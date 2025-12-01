@@ -228,7 +228,7 @@ namespace Aspose.Html.Examples
         /// </summary>
         public void RemoveTableCheck()
         {
-            string documentPath = Path.Combine(DataDir, "file.html");
+            string documentPath = Path.Combine(DataDir, "tables.html");
             string savePath = Path.Combine(OutputDir, "remove-table-check.html");
 
             using (HTMLDocument document = new HTMLDocument(documentPath))

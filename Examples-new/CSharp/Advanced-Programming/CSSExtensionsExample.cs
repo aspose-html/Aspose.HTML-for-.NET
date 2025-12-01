@@ -18,7 +18,7 @@ namespace Aspose.Html.Examples
         }
 
         /// <summary>
-        /// Executes the CSS extensions example.
+        /// Executes the CSS extensions example
         /// </summary>
         public void CSSExtensions()
         {
