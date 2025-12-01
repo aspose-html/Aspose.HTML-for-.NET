@@ -1,6 +1,5 @@
 using Aspose.Html;
 using Aspose.Html.Drawing;
-using Aspose.Html.Drawing;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using System.IO;
@@ -48,7 +47,7 @@ namespace Aspose.Html.Examples
             string savePath = Path.Combine(OutputDir, "sample-options.docx");
             // Create DOCX save options with custom page size
             DocSaveOptions options = new DocSaveOptions();
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));
+            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));
             // Convert MHTML to DOCX
             Converter.ConvertMHTML(stream, options, savePath);
         }

@@ -4,10 +4,7 @@ using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.IO;
-using System.Linq;
 
 namespace Aspose.Html.Examples
 {

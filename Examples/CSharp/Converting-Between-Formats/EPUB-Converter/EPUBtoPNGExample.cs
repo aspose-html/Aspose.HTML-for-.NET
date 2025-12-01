@@ -1,11 +1,8 @@
 using Aspose.Html;
 using Aspose.Html.Converters;
-using Aspose.Html.Drawing;
 using Aspose.Html.Saving;
-using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 
 namespace Aspose.Html.Examples
 {
@@ -69,7 +66,7 @@ namespace Aspose.Html.Examples
             for (int i = 0; i < streamProvider.Streams.Count; i++)
             {
                 var memory = streamProvider.Streams[i];
-                memory.Seek(0, System.IO.SeekOrigin.Begin);
+                memory.Seek(0, SeekOrigin.Begin);
                 using var fs = File.Create(Path.Combine(OutputDir, $"input-page_{i + 1}.png"));
                 memory.CopyTo(fs);
             }

@@ -3,7 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using Aspose.Html.Drawing;
 using System.IO;
-using System.Drawing;
 
 namespace Aspose.Html.Examples
 {
@@ -58,7 +57,7 @@ namespace Aspose.Html.Examples
                 VerticalResolution = 200,
                 BackgroundColor = System.Drawing.Color.AntiqueWhite
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(5.0f), Length.FromInches(10.0f)), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(5.0f), Length.FromInches(10.0f)), new Margin(30, 20, 10, 10));
 
             // Convert the HTML document to XPS file format with options
             Converter.ConvertHTML(document, options, savePath);

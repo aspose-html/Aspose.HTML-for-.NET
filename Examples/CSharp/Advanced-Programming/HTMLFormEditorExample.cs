@@ -22,7 +22,7 @@ namespace Aspose.Html.Examples
         /// </summary>
         public void FillAndSubmitForm()
         {
-            // Path to the sample form file (located in the test data folder)
+            // Path to the sample form file
             string formPath = Path.Combine(DataDir, "form.html");
 
             // Initialize an HTML document from the form file

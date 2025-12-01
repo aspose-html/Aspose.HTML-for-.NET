@@ -3,7 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using System.IO;
 using ImageFormat = Aspose.Html.Rendering.Image.ImageFormat;
-using System.Drawing.Imaging;
 
 namespace Aspose.Html.Examples
 {

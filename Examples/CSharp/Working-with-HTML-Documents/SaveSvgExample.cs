@@ -95,7 +95,7 @@ namespace Aspose.Html.Examples
         }
 
         // -----------------------------------------------------------------
-        // Helper classes (mirroring the test implementation)
+        // Helper classes
         // -----------------------------------------------------------------
         private class MemoryResourceHandler : ResourceHandler
         {

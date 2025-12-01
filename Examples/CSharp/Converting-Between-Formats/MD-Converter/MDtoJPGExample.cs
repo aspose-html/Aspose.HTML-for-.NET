@@ -56,7 +56,7 @@ namespace Aspose.Html.Examples
                 VerticalResolution = 200,
                 BackgroundColor = System.Drawing.Color.AliceBlue
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(600, 950), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(600, 950), new Margin(30, 20, 10, 10));
 
             // Prepare a path for the converted JPG file
             string savePath = Path.Combine(OutputDir, "nature-options.jpg");

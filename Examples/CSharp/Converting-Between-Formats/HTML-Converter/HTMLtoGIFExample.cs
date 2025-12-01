@@ -3,8 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.IO;
 
 namespace Aspose.Html.Examples

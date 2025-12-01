@@ -54,7 +54,7 @@ namespace Aspose.Html.Examples
                 BackgroundColor = System.Drawing.Color.AliceBlue,
                 JpegQuality = 100
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 500), new Margin(30, 10, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(500, 500), new Margin(30, 10, 10, 10));
             // Convert SVG to PDF
             Converter.ConvertSVG(document, options, savePath);
         }

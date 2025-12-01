@@ -49,7 +49,7 @@ namespace Aspose.Html.Examples
 
             // Create DocSaveOptions with custom page size and margins
             DocSaveOptions options = new DocSaveOptions();
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 1000), new Margin(20, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(500, 1000), new Margin(20, 20, 10, 10));
 
             // Prepare a path for the converted DOCX file
             string savePath = Path.Combine(OutputDir, "nature-output.docx");

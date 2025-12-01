@@ -140,7 +140,7 @@ namespace Aspose.Html.Examples
             }
         }
 
-        public void RuntimeServiceTest()
+        public void RuntimeService()
         {
             string code = "<h1>Runtime Service</h1>\r\n" +
                           "<script> while(true) {} </script>\r\n" +
@@ -162,7 +162,7 @@ namespace Aspose.Html.Examples
             }
         }
 
-        public void NetworkServiceTest()
+        public void NetworkService()
         {
             string code = "<img src=\"https://docs.aspose.com/svg/net/drawing-basics/filters-and-gradients/park.jpg\" >\r\n" +
                           "<img src=\"https://docs.aspose.com/html/net/missing1.jpg\" >\r\n" +
@@ -190,7 +190,7 @@ namespace Aspose.Html.Examples
             }
         }
 
-        // Helper class for logging network errors (mirrors the test implementation)
+        // Helper class for logging network errors
         private class LogMessageHandler : MessageHandler
         {
             private readonly System.Collections.Generic.List<string> errors = new System.Collections.Generic.List<string>();

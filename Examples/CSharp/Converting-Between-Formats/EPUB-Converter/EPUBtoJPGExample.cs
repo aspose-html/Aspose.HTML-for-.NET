@@ -4,7 +4,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-using System;
 using System.IO;
 
 namespace Aspose.Html.Examples
@@ -55,7 +54,7 @@ namespace Aspose.Html.Examples
                 BackgroundColor = System.Drawing.Color.AliceBlue
             };
             // Set page size and margins
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(800, 500), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(800, 500), new Margin(30, 20, 10, 10));
             // Convert EPUB to JPG with custom options
             Converter.ConvertEPUB(stream, options, savePath);
         }

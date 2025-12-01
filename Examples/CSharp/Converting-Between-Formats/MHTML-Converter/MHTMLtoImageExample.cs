@@ -3,7 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using System.IO;
 using System.Linq;
-using System.Drawing;
 using System.Collections.Generic;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Drawing;
@@ -106,7 +105,7 @@ namespace Aspose.Html.Examples
                 {
                     AnyPage = new Page()
                     {
-                        Size = new Aspose.Html.Drawing.Size(Length.FromPixels(1000), Length.FromPixels(500))
+                        Size = new Size(Length.FromPixels(1000), Length.FromPixels(500))
                     }
                 },
                 BackgroundColor = System.Drawing.Color.Beige

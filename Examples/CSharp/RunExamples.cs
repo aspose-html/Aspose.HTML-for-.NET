@@ -11,6 +11,7 @@ namespace Aspose.Html.Examples
             Console.WriteLine("--------------------------------------------------");
             /*
             // Document creation examples
+            */
             var creatingDoc = new CreatingDocumentExample();
             creatingDoc.CreateEmptyDocument();
             creatingDoc.CreateDocumentWithText();
@@ -23,11 +24,6 @@ namespace Aspose.Html.Examples
             creatingDoc.HTMLDocumentAsynchronouslyOnLoad();
             creatingDoc.CreateDocumentFromScratch();
             creatingDoc.CreateDocumentFromContentString();
-
-            // HTML to PDF conversion examples
-            var htmlToPdf = new HtmlToPdfExample();
-            htmlToPdf.ConvertHtmlStringToPdf();
-            htmlToPdf.ConvertHtmlFileToPdf();
 
             // Web scraping examples
             var downloadFile = new DownloadFileFromWebsiteExample();
@@ -42,8 +38,8 @@ namespace Aspose.Html.Examples
             downloadSvg.ExtractExternalSvg();
 
             var downloadWebsite = new DownloadWebsiteExample();
-            //downloadWebsite.SaveWebpageDefault();
-            //downloadWebsite.DownloadWebsite();
+            downloadWebsite.SaveWebpageDefault();
+            downloadWebsite.DownloadWebsite();
             //downloadWebsite.DownloadSiteUsingMaxHandlingDepth();
             //downloadWebsite.SaveWebsiteUsingPageUrlRestriction();
 
@@ -74,8 +70,8 @@ namespace Aspose.Html.Examples
             envConfig.DisableImageLoading();
             envConfig.UserAgentServiceStyleSheet();
             envConfig.UserAgentServiceCharacterSet();
-            envConfig.RuntimeServiceTest();
-            envConfig.NetworkServiceTest();
+            envConfig.RuntimeService();
+            envConfig.NetworkService();
 
             var managingImages = new ManagingImagesExample();
             managingImages.AddImage();
@@ -100,7 +96,7 @@ namespace Aspose.Html.Examples
             managingTables.RemoveTableCheck();
             managingTables.RemoveAllTables();
             managingTables.EditHTMLTable();
-            */
+            
             // Converting Between Formats examples
 
             // Flatten PDF examples
@@ -108,7 +104,7 @@ namespace Aspose.Html.Examples
             flattenPdf.ConvertHtmlToPdfAndFlattenPdf();
             flattenPdf.ConvertMhtmlToPdfAndFlattenPdf();
 
-            // EPUB converters            
+            // EPUB converters
             var epubToBmp = new EPUBtoBMPExample();
             epubToBmp.ConvertEPUBByTwoLines();
             epubToBmp.ConvertEPUBToBmp();
@@ -144,7 +140,7 @@ namespace Aspose.Html.Examples
             epubToPng.ConvertEpubToPngWithOptions();
             epubToPng.ConvertEpubToPngWithCustomStreamProvider();
 
-            var epubToXps = new EPUBtoXPSExample();            
+            var epubToXps = new EPUBtoXPSExample();
             epubToXps.ConvertEPUBToXps();
             epubToXps.ConvertEPUBToXpsWithTwoLines();
             epubToXps.ConvertEPUBToXpsWithXpsSaveOptions();
@@ -208,7 +204,7 @@ namespace Aspose.Html.Examples
             mdToDocx.ConvertMarkdownToDocxWithOptions();
 
             var mdToGif = new MDtoGIFExample();
-            mdToGif.ConvertMarkdownToGif();            
+            mdToGif.ConvertMarkdownToGif();
 
             var mdToHtml = new MDtoHTMLExample();
             mdToHtml.ConvertMarkdownToHtml();
@@ -227,7 +223,7 @@ namespace Aspose.Html.Examples
             mdToPng.ConvertMarkdownToPng(); 
 
             var mdToTiff = new MDtoTIFFExample();
-            mdToTiff.ConvertMarkdownToTiff();            
+            mdToTiff.ConvertMarkdownToTiff();
 
             var mdToXps = new MDtoXPSExample();
             mdToXps.ConvertMarkdownToXps();
@@ -286,7 +282,7 @@ namespace Aspose.Html.Examples
 
             var svgToPng = new SVGtoPNGExample();
             svgToPng.ConvertSVGToPngWithSingleLine();
-            svgToPng.ConvertSVGToPng();            
+            svgToPng.ConvertSVGToPng();
 
             // Fine‑tuning converters
             var renderers = new RenderersExample();
@@ -320,6 +316,18 @@ namespace Aspose.Html.Examples
             renderingOptions.UseXpsRenderingOptions();
             renderingOptions.UseDocRenderingOptions();
 
+            // Working with HTML Templates examples
+            var htmlTemplate = new HTMLTemplateExamples();
+            htmlTemplate.ConvertWithASingleLine();
+            htmlTemplate.ConvertTemplate();
+            htmlTemplate.ConvertTemplate1();
+            htmlTemplate.ConvertHTMLTemplateOnTheFly();
+            htmlTemplate.FillHTMLTemplate();
+            htmlTemplate.UncheckedTemplate();
+
+            // How‑to Articles examples
+            var howTo = new HowToArticlesExamples();
+            howTo.RunAll();
 
             // Advanced programming examples
             var cssExt = new CSSExtensionsExample();

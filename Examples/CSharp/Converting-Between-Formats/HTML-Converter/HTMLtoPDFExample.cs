@@ -4,7 +4,6 @@ using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Pdf.Encryption;
 using Aspose.Html.Saving;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 
@@ -23,13 +22,6 @@ namespace Aspose.Html.Examples
         {
             // Convert HTML to PDF using C#
             Converter.ConvertHTML(@"<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
-        }
-
-        // Convert HTML to PDF in one line of code
-        public void ConvertHtmlToPdfInOneLine()
-        {
-            // Convert HTML to PDF using C#
-            Aspose.Html.Converters.Converter.ConvertHTML(@"<span>Hello, World!!</span>", ".", new Aspose.Html.Saving.PdfSaveOptions(), "output.pdf");
         }
 
         // Convert HTML to PDF from a file

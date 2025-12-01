@@ -17,6 +17,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Working-with-HTML-Documents\*.cs" />
+    <Compile Include="Working-with-HTML-Templates\*.cs" />
+    <Compile Include="How-to-Articles\*.cs" />
     <Compile Include="Web-Scraping\*.cs" />
     <Compile Include="Converting-Between-Formats\HTML-Converter\*.cs" />
     <Compile Include="Converting-Between-Formats\EPUB-Converter\*.cs" />

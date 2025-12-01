@@ -1,10 +1,7 @@
 using Aspose.Html;
 using Aspose.Html.Converters;
-using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-using System;
-using System.Drawing;
 using System.IO;
 
 namespace Aspose.Html.Examples

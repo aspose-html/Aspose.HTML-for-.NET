@@ -3,7 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 using Aspose.Html.Saving;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 
@@ -43,7 +42,7 @@ namespace Aspose.Html.Examples
             string savePath = Path.Combine(OutputDir, "canvas-output-options.docx");
             using HTMLDocument document = new HTMLDocument(documentPath);
             DocSaveOptions options = new DocSaveOptions();
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(600, 400), new Margin(10, 10, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(600, 400), new Margin(10, 10, 10, 10));
             Converter.ConvertHTML(document, options, savePath);
         }
 
@@ -58,7 +57,7 @@ namespace Aspose.Html.Examples
             File.WriteAllText(documentPath, code);
             using HTMLDocument document = new HTMLDocument(documentPath);
             DocSaveOptions options = new DocSaveOptions();
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));
+            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));
             Converter.ConvertHTML(document, options, savePath);
         }
 

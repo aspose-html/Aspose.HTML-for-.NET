@@ -3,8 +3,6 @@ using Aspose.Html.Converters;
 using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-using System;
-using System.Drawing;
 using System.IO;
 
 namespace Aspose.Html.Examples
@@ -23,7 +21,7 @@ namespace Aspose.Html.Examples
             // Open an existing EPUB file for reading
             using FileStream stream = File.OpenRead(Path.Combine(DataDir, "input.epub"));
             // Convert EPUB to GIF
-            Converter.ConvertEPUB(stream, new ImageSaveOptions(Aspose.Html.Rendering.Image.ImageFormat.Gif), Path.Combine(OutputDir, "convert-by-two-lines.gif"));
+            Converter.ConvertEPUB(stream, new ImageSaveOptions(ImageFormat.Gif), Path.Combine(OutputDir, "convert-by-two-lines.gif"));
         }
 
         // Convert EPUB to GIF
@@ -34,7 +32,7 @@ namespace Aspose.Html.Examples
             // Prepare a path to save the converted file
             string savePath = Path.Combine(OutputDir, "input-output.gif");
             // Create an instance of the ImageSaveOptions class
-            ImageSaveOptions options = new ImageSaveOptions(Aspose.Html.Rendering.Image.ImageFormat.Gif);
+            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
             // Convert EPUB to GIF
             Converter.ConvertEPUB(stream, options, savePath);
         }
@@ -47,7 +45,7 @@ namespace Aspose.Html.Examples
             // Prepare a path for the converted file
             string savePath = Path.Combine(OutputDir, "input-options.gif");
             // Initialize ImageSaveOptions with custom settings
-            ImageSaveOptions options = new ImageSaveOptions(Aspose.Html.Rendering.Image.ImageFormat.Gif)
+            ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif)
             {
                 UseAntialiasing = true,
                 HorizontalResolution = 400,
@@ -55,7 +53,7 @@ namespace Aspose.Html.Examples
                 BackgroundColor = System.Drawing.Color.AliceBlue
             };
             // Set page size and margins
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(800, 500), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(800, 500), new Margin(30, 20, 10, 10));
             // Convert EPUB to GIF with custom options
             Converter.ConvertEPUB(stream, options, savePath);
         }

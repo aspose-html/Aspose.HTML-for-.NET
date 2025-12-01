@@ -46,7 +46,7 @@ namespace Aspose.Html.Examples
             using SVGDocument document = new SVGDocument(documentPath);
             // Initialize DocSaveOptions with custom page size and margins
             DocSaveOptions options = new DocSaveOptions();
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 500), new Margin(30, 10, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(500, 500), new Margin(30, 10, 10, 10));
             // Convert SVG to DOCX
             Converter.ConvertSVG(document, options, savePath);
         }

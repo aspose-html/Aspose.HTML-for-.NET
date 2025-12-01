@@ -4,8 +4,6 @@ using Aspose.Html.Drawing;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.IO;
 using System.Linq;
 
@@ -65,7 +63,7 @@ namespace Aspose.Html.Examples
                 VerticalResolution = 200,
                 BackgroundColor = System.Drawing.Color.AliceBlue
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 500), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(500, 500), new Margin(30, 20, 10, 10));
 
             // Convert HTML to JPG
             Converter.ConvertHTML(document, options, savePath);
@@ -91,7 +89,7 @@ namespace Aspose.Html.Examples
             {
                 BackgroundColor = System.Drawing.Color.AntiqueWhite
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 250), new Margin(40, 40, 20, 20));
+            options.PageSetup.AnyPage = new Page(new Size(500, 250), new Margin(40, 40, 20, 20));
 
             // Convert HTML to JPG
             Converter.ConvertHTML(document, options, savePath);

@@ -1,7 +1,6 @@
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Dom.Svg;
-using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 using System.IO;
 

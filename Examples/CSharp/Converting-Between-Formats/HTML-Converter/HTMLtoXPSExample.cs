@@ -57,7 +57,7 @@ namespace Aspose.Html.Examples
             {
                 BackgroundColor = System.Drawing.Color.AntiqueWhite
             };
-            options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(4.9f), Length.FromInches(3.5f)), new Margin(30, 20, 10, 10));
+            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(4.9f), Length.FromInches(3.5f)), new Margin(30, 20, 10, 10));
 
             // Convert HTML to XPS
             Converter.ConvertHTML(document, options, savePath);

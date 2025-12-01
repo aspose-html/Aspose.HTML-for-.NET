@@ -52,7 +52,7 @@ namespace Aspose.Html.Examples
                 {
                     AnyPage = new Page()
                     {
-                        Size = new Aspose.Html.Drawing.Size(Length.FromPixels(3000), Length.FromPixels(1000))
+                        Size = new Size(Length.FromPixels(3000), Length.FromPixels(1000))
                     }
                 },
                 BackgroundColor = System.Drawing.Color.AliceBlue
