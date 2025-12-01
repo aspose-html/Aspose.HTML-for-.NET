@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>8.0</LangVersion>
+    <RootNamespace>Aspose.Html.Examples</RootNamespace>
+    <AssemblyName>Aspose.Html.Examples</AssemblyName>
+    <StartupObject>Aspose.Html.Examples.RunExamples</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspose.HTML" Version="25.9" />
+    <PackageReference Include="System.Text.Json" Version="7.0.0" />
+    <!-- Add reference to System.IO.Compression.FileSystem for ZipArchive support on .NET Framework -->
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Working-with-HTML-Documents\*.cs" />
+    <Compile Include="Web-Scraping\*.cs" />
+    <Compile Include="Converting-Between-Formats\HTML-Converter\*.cs" />
+    <Compile Include="Converting-Between-Formats\EPUB-Converter\*.cs" />
+    <Compile Include="Converting-Between-Formats\MHTML-Converter\*.cs" />
+    <Compile Include="Converting-Between-Formats\MD-Converter\*.cs" />
+    <Compile Include="Converting-Between-Formats\SVG-Converter\*.cs" />
+    <Compile Include="Converting-Between-Formats\Fine-Tuning Converters\*.cs" />
+    <Compile Include="Converting-Between-Formats\FlattenPDFExample.cs" />
+    <Compile Include="HtmlToPdfExample.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="BaseExample.cs" />
+    <Compile Include="Advanced-Programming\*.cs" />
+  </ItemGroup>
+</Project>
