@@ -20,6 +20,7 @@
     <Compile Include="Working-with-HTML-Templates\*.cs" />
     <Compile Include="How-to-Articles\*.cs" />
     <Compile Include="Web-Scraping\*.cs" />
+    <Compile Include="Advanced-Programming\*.cs" />
     <Compile Include="Converting-Between-Formats\HTML-Converter\*.cs" />
     <Compile Include="Converting-Between-Formats\EPUB-Converter\*.cs" />
     <Compile Include="Converting-Between-Formats\MHTML-Converter\*.cs" />
@@ -27,9 +28,7 @@
     <Compile Include="Converting-Between-Formats\SVG-Converter\*.cs" />
     <Compile Include="Converting-Between-Formats\Fine-Tuning Converters\*.cs" />
     <Compile Include="Converting-Between-Formats\FlattenPDFExample.cs" />
-    <Compile Include="HtmlToPdfExample.cs" />
     <Compile Include="RunExamples.cs" />
     <Compile Include="BaseExample.cs" />
-    <Compile Include="Advanced-Programming\*.cs" />
   </ItemGroup>
 </Project>

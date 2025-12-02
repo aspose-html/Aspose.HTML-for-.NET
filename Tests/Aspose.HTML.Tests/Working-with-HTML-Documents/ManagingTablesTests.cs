@@ -64,6 +64,34 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
         }
 
 
+        [Fact(DisplayName = "Add Table To HTML")]
+        public void AddSimpleTableToHTMLTest()
+        {
+            // Create new HTML document
+            using (HTMLDocument document = new HTMLDocument())
+            {
+                HTMLElement body = document.Body;
+
+                // Create a table element
+                HTMLTableElement table = (HTMLTableElement)document.CreateElement("table");              
+                document.Body.AppendChild(table);
+
+                HTMLTableRowElement row = (HTMLTableRowElement)document.CreateElement("tr");
+                table.AppendChild(row);
+
+                HTMLTableCellElement cell = (HTMLTableCellElement)document.CreateElement("td");
+                cell.InnerHTML = "Hello Table!";
+                row.AppendChild(cell);
+
+                // Prepare a path for resulting file saving 
+                string savePath = Path.Combine(OutputDir, "add-simple-table.html");
+
+                document.Save(savePath);
+                Assert.True(File.Exists(savePath));
+            }            
+        }
+
+
         [Fact(DisplayName = "Edit HTML Table")]
         public void EditHtmlTableTest()
         {            

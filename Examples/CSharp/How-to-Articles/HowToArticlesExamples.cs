@@ -408,7 +408,7 @@ namespace Aspose.Html.Examples
             string documentPath = Path.Combine(DataDir, "file.html");
             using Configuration configuration = new Configuration();
             IUserAgentService service = configuration.GetService<IUserAgentService>();
-            service.FontsSettings.SetFontsLookupFolder(Path.Combine(DataDir, "font"), true);
+            service.FontsSettings.SetFontsLookupFolder(Path.Combine(DataDir, "fonts"), true);
             using (HTMLDocument document = new HTMLDocument(documentPath, configuration))
             {
                 Converter.ConvertHTML(document, new ImageSaveOptions(), Path.Combine(OutputDir, "file-output.png"));
@@ -841,7 +841,7 @@ namespace Aspose.Html.Examples
             ChangeHeaderColorInlineCss();
             ChangeHeaderColorInternalCss();
             CheckEmptyContent();
-            //SetFontFolderForPdf();
+            SetFontFolderForPdf();
             SetFontFolderForImage();
             SerializeInputValue();
             ConvertPxToCm();
