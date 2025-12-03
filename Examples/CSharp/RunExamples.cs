@@ -40,8 +40,8 @@ namespace Aspose.Html.Examples
             var downloadWebsite = new DownloadWebsiteExample();
             downloadWebsite.SaveWebpageDefault();
             downloadWebsite.DownloadWebsite();
-            //downloadWebsite.DownloadSiteUsingMaxHandlingDepth();
-            //downloadWebsite.SaveWebsiteUsingPageUrlRestriction();
+            downloadWebsite.DownloadSiteUsingMaxHandlingDepth();
+            downloadWebsite.SaveWebsiteUsingPageUrlRestriction();
 
             var extractTable = new ExtractHtmlTableExample();
             extractTable.ExtractDataFromTable();

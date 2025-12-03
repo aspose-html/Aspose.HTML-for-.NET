@@ -1,9 +1,0 @@
-<Data>
-    <FirstName>John</FirstName>
-    <LastName>Doe</LastName>
-    <Address>
-        <City>Dallas</City>
-        <Street>Austin rd.</Street>
-        <Number>200</Number>
-    </Address>	
-</Data>

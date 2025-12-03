@@ -1,5 +1,0 @@
-<svg height="400" width="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 30 30 L 110 30 L 110 110 L 30 110 L 30 30" fill="transparent" stroke-width="2" stroke="black" />  
-    <path d="M 50 50 H 130 V 130 H 50 Z" fill="transparent" stroke-width="2" stroke="blue" />
-    <path d="M 70 70 h 80 v 80 h -80 Z" fill="transparent" stroke-width="2" stroke="red" />
-</svg>

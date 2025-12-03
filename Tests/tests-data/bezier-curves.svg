@@ -1,4 +1,0 @@
-<svg height="700" width="750" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 10 100 Q 25 10 180 100 T 250 100 T 320 100 T 390 100" stroke="#FFA500" stroke-width="3" fill="none" />
-    <path d="M 10 200 Q 25 110 180 200 T 300 250 T 420 250 T 490 150" stroke="grey" stroke-width="3" fill="none" />
-</svg>

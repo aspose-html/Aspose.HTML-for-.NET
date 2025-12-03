@@ -1,9 +1,0 @@
-{
-     "FirstName": "John",
-     "LastName": "Doe",
-     "Address": {
-         "City": "Dallas",
-         "Street": "Austin rd.",
-         "Number": "200"
-     }
- }
