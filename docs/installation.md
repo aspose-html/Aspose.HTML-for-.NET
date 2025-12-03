@@ -1,4 +1,4 @@
-# Aspose.HTML for .NET - Installation
+# Aspose.HTML for .NET – Installation
 
 Aspose.HTML for .NET can be installed in several ways depending on your development environment. The recommended method is via NuGet Package Manager, but manual installation is also supported.
 

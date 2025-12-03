@@ -1,4 +1,4 @@
-# Aspose.HTML for .NET - Supported Features
+# Aspose.HTML for .NET – Supported Features
 
 Aspose.HTML for .NET provides a wide range of functionality for document processing, conversion, and DOM manipulation. Below is an overview of the key features available to you.
 

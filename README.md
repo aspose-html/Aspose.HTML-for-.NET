@@ -1,10 +1,10 @@
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net/) | [Docs](https://docs.aspose.com/html/net/) | [NuGet Package](https://www.nuget.org/packages/Aspose.HTML/) | [Demos](https://products.aspose.app/html/applications) | [API Reference](https://reference.aspose.com/html/net/) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/categories/aspose.html-product-family/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/html/29) | [Temporary License](https://purchase.aspose.com/temporary-license/)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net/) | [Docs](https://docs.aspose.com/html/net/) | [NuGet Package](https://www.nuget.org/packages/Aspose.HTML/) | [Demos](https://products.aspose.app/html/applications) | [API Reference](https://reference.aspose.com/html/net/) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/categories/aspose.html-product-family/) | [Free Support](https://forum.aspose.com/c/html/29) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 ![Nuget](https://img.shields.io/nuget/v/Aspose.HTML) ![Nuget](https://img.shields.io/nuget/dt/Aspose.HTML) ![GitHub](https://img.shields.io/github/license/aspose-html/Aspose.HTML-for-.NET)
 
-# Aspose.HTML for .NET - HTML File Manipulation .NET API
+# Aspose.HTML for .NET – HTML File Manipulation .NET API
 
-High-performance .NET API for working with HTML, MHTML, EPUB, Markdown, and SVG - convert, render, edit, and automate web content using C#.
+High-performance .NET API for working with HTML, MHTML, EPUB, Markdown, and SVG – convert, render, edit, and automate web content using C#.
 
 [Aspose.HTML for .NET](https://products.aspose.com/html/net/) is a developer-friendly library that makes it easy to load, create, parse, convert, and render HTML, MHTML, and SVG content inside any .NET application. The .NET API works as a headless browser, allowing you to create or open existing HTML documents from various sources to perform operations such as removing and replacing HTML nodes, saving and converting HTML documents, extracting CSS from HTML, configuring a document sandbox, and much more. This library provides you with all the tools you need.
 
@@ -17,17 +17,17 @@ High-performance .NET API for working with HTML, MHTML, EPUB, Markdown, and SVG 
 
 ## HTML Processing Features
 
-- Programmatic DOM manipulation - create, navigate, modify, and remove HTML elements in C#.
-- Load documents from file, URL, stream, or string.
-- Navigate through document either by NodeIterator or TreeWalker.
+- [Programmatic DOM manipulation](https://docs.aspose.com/html/net/edit-html-document/) – create, navigate, modify, and remove HTML elements in C#.
+- [Load documents](https://docs.aspose.com/html/net/creating-a-document/) from file, URL, stream, or string.
+- [Navigate through document](https://docs.aspose.com/html/net/html-navigation/) either by NodeIterator or TreeWalker.
+- [MutationObserver](https://docs.aspose.com/html/net/mutationobserver/) to watch over DOM modifications.
 - High-fidelity HTML rendering engine with CSS, JS, fonts, and media support.
-- Control the timeout of rendering process.
-- Convert HTML to [many popular formats](https://docs.aspose.com/html/net/supported-file-formats/) including PDF, DOCX, XPS and images.
-- [MutationObserver](https://docs.aspose.com/html/net/dom-mutationobserver/) to watch over DOM modifications.
-- Populate HTML document with external data (XML & JSON).
-- Support of single (PDF, XPS) or multiple (image formats) output file streams.
-- Extract CSS styling information.
-- Configuring Sandbox for the environment independent of the execution machine.
+- Control the [timeout of rendering process](https://docs.aspose.com/html/net/renderers/#set-timeout).
+- [Convert HTML](https://docs.aspose.com/html/net/html-converter/) to many popular formats including PDF, DOCX, XPS and images.
+- [Populate HTML document](https://docs.aspose.com/html/net/working-with-html-template/) with external data (XML & JSON).
+- Support of single (PDF, XPS) or multiple (image formats) [output file streams](https://docs.aspose.com/html/net/convert-html-to-pdf/#output-stream-providers).
+- [Extract CSS styling information](https://docs.aspose.com/html/net/data-extraction/).
+- [Configuring Sandbox](https://docs.aspose.com/html/net/sandboxing/) for the environment independent of the execution machine.
 
 ## Quick Start with Aspose.HTML for .NET
 
@@ -109,4 +109,4 @@ We warmly welcome contributions that help improve this repository and make the e
 1. Submit a Pull Request. Once your update is ready, open a pull request. It will be automatically routed to the appropriate reviewer for evaluation and feedback.
 1. Merge After Approval. When your pull request is approved, it will be merged into the repository. Thank you for helping us improve the project!
 
-[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net/) | [Docs](https://docs.aspose.com/html/net/) | [NuGet Package](https://www.nuget.org/packages/Aspose.HTML/)| [Demos](https://products.aspose.app/html/applications) | [API Reference](https://reference.aspose.com/html/net/) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/categories/aspose.html-product-family/) | [Search](https://search.aspose.com/) | [Free Support](https://forum.aspose.com/c/html/29) | [Temporary License](https://purchase.aspose.com/temporary-license/)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/html/net/) | [Docs](https://docs.aspose.com/html/net/) | [NuGet Package](https://www.nuget.org/packages/Aspose.HTML/)| [Demos](https://products.aspose.app/html/applications) | [API Reference](https://reference.aspose.com/html/net/) | [Examples](https://github.com/aspose-html/Aspose.Html-for-.NET) | [Blog](https://blog.aspose.com/categories/aspose.html-product-family/) | [Free Support](https://forum.aspose.com/c/html/29) | [Temporary License](https://purchase.aspose.com/temporary-license/)
