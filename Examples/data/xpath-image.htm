@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header, footer
+{
+  display:flex; 
+  justify-content: center;    
+  align-items: center;
+}
+.row > a
+{
+  margin-right:10px;
+  flex-basis: 20%;
+}
+.row > a:last-child
+{
+  margin-right:0px;
+}
+.row, .ad-row
+{
+  display:flex;
+  width:100%;
+}
+.ad-row
+{
+  justify-content: center;    
+  align-items: center;
+}
+.photo
+{
+  width:100%;
+}
+.ad
+{
+  width:100%;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div>
+    Text before header ad
+    </div>
+    <img alt="Header ad" src="ad.png">
+    <div>
+    Text after header ad
+    </div>
+  </header>
+  <main>
+    <div class="row">
+      <a href="1.png">
+        <img alt="Photo description" class="photo" src="1.png">
+      </a>
+      <a href="2.png">
+        <img alt="Photo description" class="photo" src="2.png">
+      </a>
+      <a href="ad.png">
+        <img alt="Body ad" class="ad" src="ad.png">
+      </a>
+      <a href="3.png">
+        <img alt="Photo description" class="photo" src="3.png">
+      </a>
+      <a href="4.png">
+        <img alt="Photo description" class="photo" src="4.png">
+      </a>
+    </div>
+    <div class="ad-row">
+      <a href="ad.png">
+        <img alt="Row ad" src="ad.png">
+      </a>
+    </div>
+    <div class="row">
+      <a href="1.png">
+        <img alt="Photo description" class="photo" src="1.png">
+      </a>
+      <a href="2.png">
+        <img alt="Photo description" class="photo" src="2.png">
+      </a>
+      <a href="ad.png">
+        <img alt="Body ad" class="ad" src="ad.png">
+      </a>
+      <a href="3.png">
+        <img alt="Photo description" class="photo" src="3.png">
+      </a>
+      <a href="4.png">
+        <img alt="Photo description" class="photo" src="4.png">
+      </a>
+    </div>
+    <div class="ad-row">
+      <a href="ad.png">
+        <img alt="Row ad" src="ad.png">
+      </a>
+    </div>
+    <div class="row">
+      <a href="1.png">
+        <img alt="Photo description" class="photo" src="1.png">
+      </a>
+      <a href="2.png">
+        <img alt="Photo description" class="photo" src="2.png">
+      </a>
+      <a href="ad.png">
+        <img alt="Body ad" class="ad" src="ad.png">
+      </a>
+      <a href="3.png">
+        <img alt="Photo description" class="photo" src="3.png">
+      </a>
+      <a href="4.png">
+        <img alt="Photo description" class="photo" src="4.png">
+      </a>
+    </div>
+  </main>
+  <footer>
+    <div>
+    Text before footer ad
+    </div>
+    <img alt="Footer ad" src="ad.png">
+    <div>
+    Text after footer ad
+    </div>
+  </footer>
+</body>
+</html>

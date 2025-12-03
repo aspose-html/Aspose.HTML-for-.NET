@@ -1,0 +1,4 @@
+<svg height="350" width="350" xmlns="http://www.w3.org/2000/svg">
+	<rect x="0" y="0" width="100%" height="100%" fill="#d4e5ed"/>    
+    <path stroke="#a06e84" stroke-width="3" fill="#74aeaf" d="    M 150,50 L 150, 300  M 120,100 L 150,50 L 180, 100     M 110,150 L 150,90 L 190, 150  M 90,220 L 150,130 L 210, 220  M 70,300 L 150,190 L 230, 300     M 110,310 L 150,240 L 190, 310  "/>
+</svg>

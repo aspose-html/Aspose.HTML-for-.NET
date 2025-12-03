@@ -1,0 +1,7 @@
+<svg height="1000" width="1000" viewBox="-30 0 300 300" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 25 78  C -26 28  97 -15  98 91 C 86 34 16 33 25 78" fill="#3993c9"/>
+    <path d="M 25 78  C -26 28  97 -15  98 91 C 86 34 16 33 25 78"  fill="#f3622a" transform= "rotate(90 30 64) translate(5 -14)"/>
+    <path d="M 25 78  C -26 28  97 -15  98 91 C 86 34 16 33 25 78"  fill="#c1af2c" transform= "rotate(180 25 78) translate(-19 9)"/>
+    <path d="M 25 78  C -26 28  97 -15  98 91 C 86 34 16 33 25 78"  fill="#499c43" transform= "rotate(-90 25 78) translate(-5 14)"/>
+    <circle cx="34.5" cy="73.5" r="40"   fill="white" fill-opacity="0.3" />
+</svg>

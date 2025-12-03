@@ -1,7 +1,0 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" preserveAspectRatio="none">
-  <rect id="rect1" width="400" height="300" fill="#000"/>
-  <text id="text1" text-anchor="middle" x="200" y="150"
-    style="fill:#111;font-weight:bold;font-size:22px;font-family:Arial,Helvetica,sans-serif;dominant-baseline:central">
-    200x150
-  </text>
-</svg>
